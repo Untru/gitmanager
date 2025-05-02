@@ -1552,6 +1552,7 @@
   <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ГруппыЗначенийДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеДляСкрытияВЛогах</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
   <informationRegisters>InformationRegister.ДатыПоследнейЗагрузкиПочтовыхСообщений</informationRegisters>
