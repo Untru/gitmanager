@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="482b84c0-65e1-43fe-8ac5-27f937a182de">
+  <producedTypes>
+    <refType typeId="3a0ef84a-33d5-4edf-9179-7d19890229b8" valueTypeId="185abbaa-ca2a-44f1-9b8a-9f2c8d7f2d70"/>
+    <listType typeId="102e6738-eaf9-48fa-9980-c7c5bc26b08d" valueTypeId="723cd947-51c7-44e6-9055-d7747caa22a5"/>
+    <managerType typeId="abf58650-3db4-46e1-841e-bd10bb4c9f5c" valueTypeId="f6584da4-e2be-4fb3-bfe2-30b2bc0eb8b0"/>
+  </producedTypes>
+  <name>ТипРепозитория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип репозитория</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3843b0ac-75e2-446f-a663-aeddc47ab9ae">
+    <name>GitLab</name>
+    <synonym>
+      <key>ru</key>
+      <value>Git lab</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c316383-5097-41ef-a65f-d0a737886e9d">
+    <name>GitHub</name>
+    <synonym>
+      <key>ru</key>
+      <value>Git hub</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aba77b77-b103-4705-b354-10059f4f8fbc">
+  <producedTypes>
+    <refType typeId="c52c5128-0da5-43a3-9e21-17a08ab7c2e8" valueTypeId="1e601b36-b8c9-4d78-93d4-541af06b0cf0"/>
+    <listType typeId="7dabe8c9-17fd-400e-84d7-13f8e4958a82" valueTypeId="c4b30bfa-6a34-45b7-8ae3-611fdc23d8cc"/>
+    <managerType typeId="37f4f786-2b39-497a-bad5-8d51c325a5de" valueTypeId="88c11083-2569-489e-95bd-0ef5c573a2bb"/>
+  </producedTypes>
+  <name>ТипыБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы баз</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="67b02bf4-3d6d-4cc6-bb65-9fab6786054e">
+    <name>РабочаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочая база</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a0843bc-a894-434c-b6e2-7b6c0bf1e482">
+    <name>ТестоваяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовая база</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e041ed26-6bc3-4e5c-9cc1-fd19de53b1ad">
+    <name>ППР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ППР</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

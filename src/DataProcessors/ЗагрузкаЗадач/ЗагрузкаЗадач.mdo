@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45e2bd9a-bf63-4fd9-9e19-2cb0fe966e8a">
+  <producedTypes>
+    <objectType typeId="40064dba-d8c2-43a6-8c40-85103e5b27a6" valueTypeId="00a1205c-bf18-45f3-8bb2-98f28a627224"/>
+    <managerType typeId="e372eeba-8568-49b3-b94a-d2d51558d6cc" valueTypeId="68c55aaf-a124-4ccb-9911-9325aff20f7a"/>
+  </producedTypes>
+  <name>ЗагрузкаЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаЗадач.Form.Форма</defaultForm>
+  <tabularSections uuid="0e63eae4-b724-4818-bfa2-142881afb805">
+    <producedTypes>
+      <objectType typeId="396ecfe9-9d66-45f1-9bbc-8a0e2634cae6" valueTypeId="4297b0f5-e5bd-438a-b92f-cb32482f3cf0"/>
+      <rowType typeId="1ff12d69-1eb8-4f6b-8a2f-2f01b40a5611" valueTypeId="1f6db1ee-6481-46b4-8cf0-8570039bf935"/>
+    </producedTypes>
+    <name>ЗадачиБитрикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи битрикс</value>
+    </synonym>
+    <attributes uuid="bff24f41-3985-4632-827f-042991e24664">
+      <name>НомерБитрикс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер битрикс</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>7</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="68803414-7cb5-44c7-8378-daef7bffda81">
+      <name>Задача</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задача</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Задачи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="318339c2-bfee-4f9a-aade-7af97229531f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

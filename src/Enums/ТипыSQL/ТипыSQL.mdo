@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="491d11ac-9a33-4b4a-bddb-b1da30a5c5bb">
+  <producedTypes>
+    <refType typeId="123370d4-facb-4c21-a3fe-042140e226c5" valueTypeId="ebf9349f-794d-4d88-9461-57c3613de371"/>
+    <listType typeId="2f4c880d-9343-4de5-af3d-b57d9c6060cb" valueTypeId="72ba7cd7-27e9-4a32-9df9-b8a2288ce53f"/>
+    <managerType typeId="83c4579c-01dc-48b2-b3f0-ea277bb311a6" valueTypeId="552efda4-fce9-455a-80cb-43da41be5022"/>
+  </producedTypes>
+  <name>ТипыSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы SQL</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4dd2b0c7-47e1-4a68-b2bd-9a3914a4ccfb">
+    <name>MSSQLServer</name>
+    <synonym>
+      <key>ru</key>
+      <value>MSSQLServer</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

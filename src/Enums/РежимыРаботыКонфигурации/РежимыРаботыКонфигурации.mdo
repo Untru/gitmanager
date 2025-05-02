@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38c9b789-c3ff-4319-9cf4-281c1c21b605">
+  <producedTypes>
+    <refType typeId="d73d9f31-2e01-4cc4-9ece-d515ec8378d9" valueTypeId="c28c88ea-af48-4807-ad4c-b744fb2af598"/>
+    <listType typeId="6e34e267-6f67-4d5f-86ec-891107ede752" valueTypeId="2e21444c-c16b-41c8-a82a-59d845a94307"/>
+    <managerType typeId="6252f60d-dcd5-463f-a48c-6841662755c7" valueTypeId="e8b0d756-eefe-4514-a0e2-acab0c3adbe9"/>
+  </producedTypes>
+  <name>РежимыРаботыКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы работы конфигурации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="63642e1d-1759-4acd-a3bc-c44e682b632c">
+    <name>ibcmd</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ibcmd</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89039d3f-d87e-4c2b-8c62-44d744d0627e">
+    <name>Пакетный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакетный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

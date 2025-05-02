@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8057b1c0-27e8-432a-aa52-ea2a5af7fec8">
+  <name>ЗапускПриложенияЧерезJENKINS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск приложения через JENKINS</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

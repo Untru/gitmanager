@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="241ad7d7-1dc5-456b-9356-c3714b2e828d">
+  <producedTypes>
+    <objectType typeId="bf3f47fa-c82f-4d0d-963b-848c25a9836a" valueTypeId="573d93c3-b9c2-468a-9a8b-24c17af21851"/>
+    <refType typeId="648cd1c8-ea84-454e-b979-f225c2ebaa4b" valueTypeId="198af1f6-20ac-4135-b9a0-c7c081b4364b"/>
+    <selectionType typeId="09969087-f66e-4b7e-ab31-97f93a3f8355" valueTypeId="644ab7d3-77dc-49d4-958e-3b3eabc70b73"/>
+    <listType typeId="ef76a4d9-aec7-434f-83bf-85bd76b8652b" valueTypeId="de9d84ae-b5a4-4c7e-bc2e-aa164eaf304f"/>
+    <managerType typeId="b4c5a4ce-72f9-432c-9398-25b3a8f68652" valueTypeId="7bdfea75-35ad-4a74-8712-4f458748cf84"/>
+  </producedTypes>
+  <name>Сборки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сборки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сборки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сборки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сборки.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="e9f348b6-0edd-4b5b-b08d-b2b0040d7bb9">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1e4138e-969f-47d6-a209-ea5f188b5386">
+    <name>ТипСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сборки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="877d702b-4853-4303-ae9d-bebbd15468d8">
+    <name>ИтогиСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоги сборки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7b847b99-fd4a-4da5-ae47-6fe4f0f91b0c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

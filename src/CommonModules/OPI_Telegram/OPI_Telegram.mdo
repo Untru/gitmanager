@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="066b2f84-4ea2-4597-90d7-e4d6dc70a6f0">
+  <name>OPI_Telegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы интеграции с Telegram (ОПИ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

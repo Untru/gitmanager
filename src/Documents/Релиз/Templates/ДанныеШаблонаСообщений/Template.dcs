@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проект</dataPath>
+			<field>Проект</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияДанных</dataPath>
+			<field>ВерсияДанных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПометкаУдаления</dataPath>
+			<field>ПометкаУдаления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>База</dataPath>
+			<field>База</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проведен</dataPath>
+			<field>Проведен</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерРелиза</dataPath>
+			<field>НомерРелиза</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектыРазработки.ОбъектРазработки</dataPath>
+			<field>ОбъектыРазработки.ОбъектРазработки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектыРазработки.Ссылка</dataPath>
+			<field>ОбъектыРазработки.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектыРазработки.НомерСтроки</dataPath>
+			<field>ОбъектыРазработки.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектыРазработки.ВерсияОбъектаРазработки</dataPath>
+			<field>ОбъектыРазработки.ВерсияОбъектаРазработки</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>ОбъектыРазработки</dataPath>
+			<field>ОбъектыРазработки</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Релиз.Ссылка КАК Ссылка,
+	Релиз.ВерсияДанных КАК ВерсияДанных,
+	Релиз.ПометкаУдаления КАК ПометкаУдаления,
+	Релиз.Номер КАК Номер,
+	Релиз.Дата КАК Дата,
+	Релиз.Проведен КАК Проведен,
+	Релиз.Проект КАК Проект,
+	Релиз.НомерРелиза КАК НомерРелиза,
+	Релиз.База КАК База,
+	Релиз.ОбъектыРазработки.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ОбъектРазработки КАК ОбъектРазработки,
+		ВерсияОбъектаРазработки КАК ВерсияОбъектаРазработки
+	) КАК ОбъектыРазработки
+ИЗ
+	Документ.Релиз КАК Релиз
+ГДЕ
+	Релиз.Ссылка = &amp;Релиз</query>
+	</dataSet>
+	<parameter>
+		<name>Релиз</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Релиз</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.Релиз</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14912639-0db1-4652-af57-e1c062f20800">
+  <producedTypes>
+    <refType typeId="eefd266a-cf98-4922-96dc-493465f79fa4" valueTypeId="fd0f0803-6492-433e-b69f-ec2920a58f0d"/>
+    <listType typeId="4f154bd6-5ecb-4dea-a51d-79df356d0a37" valueTypeId="52c697cf-a73f-47d4-bb8c-19dc5bc0b4ed"/>
+    <managerType typeId="33611035-cbe7-473f-baa0-c07dfcbc343f" valueTypeId="5fa1a593-e8e0-49b7-8556-fe7aaad0d062"/>
+  </producedTypes>
+  <name>ТипыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5e72d605-ec3b-404e-a0e7-28cb0edb0adb">
+    <name>ЗНИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗНИ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5cd93f2f-e4fd-49e4-9f48-085348ca44b5">
+    <name>Разработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ed8a305-5787-4ace-ada3-6f6fcf208a61">
+    <name>Инцидент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инцидент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

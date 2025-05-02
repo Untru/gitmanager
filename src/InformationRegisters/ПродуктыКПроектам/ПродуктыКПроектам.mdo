@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fb4558e-2851-497f-81bc-8357b087a3e0">
+  <producedTypes>
+    <selectionType typeId="0953d9f9-7701-486b-bbe8-a6fad2592c63" valueTypeId="5d5d0b05-01d5-499f-bded-b6503438ef7a"/>
+    <listType typeId="87cdc04f-4aae-481b-a3cb-ba70bce65f3d" valueTypeId="b37ae999-6785-41b7-97eb-ad623fb9dd39"/>
+    <managerType typeId="8165e5bd-a812-4f7e-ae3f-550d0bbf78ea" valueTypeId="a04c0292-235f-4eae-b683-63ad67623919"/>
+    <recordSetType typeId="79987be2-767b-43a5-8006-89d5ef3bd830" valueTypeId="507551ee-4b23-4fba-888e-f430301b9be4"/>
+    <recordKeyType typeId="e9258562-dfa7-4a65-841f-886c84249e9a" valueTypeId="2c3c215e-ade0-4b70-a342-5b57ce703eb8"/>
+    <recordType typeId="40795103-3ac2-4642-bffd-e54db0942528" valueTypeId="3a2eeea5-e5fe-4d97-8641-7074430b93b2"/>
+    <recordManagerType typeId="ea6b6674-5468-4091-aa39-b0b19768127d" valueTypeId="4f9ab346-c964-4b14-80ae-b1fb3d00f529"/>
+  </producedTypes>
+  <name>ПродуктыКПроектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукты к проектам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f095e57d-3bb9-4ef0-ad9e-2cf84be24aea">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1367e97f-a1d1-4049-9391-a1e06136481c">
+    <name>ИДПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДПродукта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a960c3a4-d800-4213-b5b1-f46414058deb">
+  <producedTypes>
+    <objectType typeId="02d8a4dc-5cb6-4cf2-a921-9f10e2f63420" valueTypeId="051ff6c5-d6db-4384-b38d-ad4e0f1965bb"/>
+    <managerType typeId="bb09e5b4-a606-48c2-949d-e9b5110e7c52" valueTypeId="2f49db1e-15ec-4c8c-95bc-65ae445630b7"/>
+  </producedTypes>
+  <name>АнализЗадачРелиза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ задач релиза</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АнализЗадачРелиза.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="9b6885d8-c159-4876-9fa0-1ee5068537cb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

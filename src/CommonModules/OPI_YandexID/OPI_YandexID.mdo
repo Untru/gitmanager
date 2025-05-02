@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4432aa97-a1a1-473b-88e1-bb64ce805cf1">
+  <name>OPI_YandexID</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы работы с Yandex ID (ОПИ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

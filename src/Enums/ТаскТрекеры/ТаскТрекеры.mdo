@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b797ba28-c507-458f-9272-e69b69d461c2">
+  <producedTypes>
+    <refType typeId="bdcac0b6-bd9d-4f17-a58f-7825161e5a5d" valueTypeId="69e75921-f5bc-417a-b000-d48e071a8d13"/>
+    <listType typeId="3ea965c5-ae1c-43f2-946f-aff7874c4806" valueTypeId="9043b4e9-1385-4945-b8da-eb319e0c47c5"/>
+    <managerType typeId="ced309df-4afa-4b54-8949-7e766d11d347" valueTypeId="6ce8f5b4-90eb-4e2f-b6ea-493b74c2c2f6"/>
+  </producedTypes>
+  <name>ТаскТрекеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таск трекеры</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7be3bf25-8073-4846-81fd-a6314529881a">
+    <name>Bitrix</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bitrix</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d84c9379-3352-4f7b-a7da-22973ef2d49d">
+    <name>Предприятие1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

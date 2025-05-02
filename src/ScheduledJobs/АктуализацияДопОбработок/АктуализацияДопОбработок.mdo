@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfdea533-6c65-4000-be39-4a55cb4471a9">
+  <name>АктуализацияДопОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализация доп обработок</value>
+  </synonym>
+  <methodName>CommonModule.АктуализацияДопОбработок.ЗапускАктуализацияДопОбработок</methodName>
+  <key>АктуализацияДопОбработок</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

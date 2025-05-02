@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d17e87d6-43fe-460f-b104-ff057e186b19">
+  <name>RDPClient_Макет</name>
+  <synonym>
+    <key>ru</key>
+    <value>RDPClient макет</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

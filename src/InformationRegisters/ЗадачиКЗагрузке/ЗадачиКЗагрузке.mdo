@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b3df063-9c0c-465e-84a0-bb93be3e52cc">
+  <producedTypes>
+    <selectionType typeId="c2a7a3c2-4c11-4e20-8957-bc9cec3adbbb" valueTypeId="9b1f8e45-b7c3-42c5-a53c-4415c7ed703a"/>
+    <listType typeId="83f14a87-f03f-4efd-8148-2af547772bee" valueTypeId="d3b09302-052a-455d-ab3e-e378d66dd31b"/>
+    <managerType typeId="6d65c7d3-377a-4826-9c35-709c99d6e1f1" valueTypeId="abfa3cf9-4587-4796-bc88-f610e4031e45"/>
+    <recordSetType typeId="83264bb7-ebbf-4a14-b13a-39424a076eb5" valueTypeId="06373a10-ae75-479a-82c1-2562897c5ba2"/>
+    <recordKeyType typeId="9ba268ac-2f3b-4556-b389-2d7b547c2078" valueTypeId="d4b81da5-668f-4121-9e34-f4dca9551cd9"/>
+    <recordType typeId="26c0bed9-61c7-4f35-a0cd-f55262f6dcbb" valueTypeId="04338fc9-8f21-4365-b01c-3c761d519ac0"/>
+    <recordManagerType typeId="59389292-42a6-4ec7-9a95-82626a12a900" valueTypeId="a290c716-092b-44a6-a6e5-3588ccd8ae6d"/>
+  </producedTypes>
+  <name>ЗадачиКЗагрузке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи к загрузке</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f774914f-bda8-4d0d-8046-a4df71ffac61">
+    <name>НомерЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер задачи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

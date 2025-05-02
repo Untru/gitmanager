@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de7ccef8-f11b-43ba-b1c9-46ec717d5010">
+  <name>РаботаСJenkins</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с jenkins</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

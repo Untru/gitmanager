@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8417f69b-a688-4a6f-a05a-71447794f79d">
+  <producedTypes>
+    <selectionType typeId="fad68c06-d977-469e-be44-164ce70809ee" valueTypeId="2964186d-a088-441c-87e6-9a494dc2db5c"/>
+    <listType typeId="d3bea900-5357-4055-b714-1751962a8575" valueTypeId="b6958105-3a9e-49c2-84af-fbf7cd87008d"/>
+    <managerType typeId="87fd5d7f-c6f7-47f7-9bc7-fccbcd6b4715" valueTypeId="a2455c2a-21df-4f5b-aa97-a7cb8c442563"/>
+    <recordSetType typeId="10ec7285-bfed-407e-9c16-a340bd169a99" valueTypeId="728d7af9-6c96-4e62-a469-9fc1e04d4cd1"/>
+    <recordKeyType typeId="35bc11c5-0ce5-4ba5-b59a-6c72d8bf33b7" valueTypeId="02276cce-615e-4a81-9d19-3382ff67f817"/>
+    <recordType typeId="d2498745-a693-4736-b225-adb9d5724072" valueTypeId="01daf6da-9842-4499-a74d-397870701823"/>
+    <recordManagerType typeId="37071666-c6c0-43c1-abe7-4b2b12bc5d46" valueTypeId="efa09e70-9f92-4c1d-85bb-80bc6cf3e982"/>
+  </producedTypes>
+  <name>Релизы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Релизы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cb853a6a-c92e-45f2-b92e-4f00f754bca2">
+    <name>ВерсияОбъектаРазработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия объекта разработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="7e72eda6-5fa0-464f-b0c8-faa299e28357">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c6c21b00-69d0-4885-864d-dae0d16ea462">
+    <name>ОбъектРазработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект разработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыРазработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

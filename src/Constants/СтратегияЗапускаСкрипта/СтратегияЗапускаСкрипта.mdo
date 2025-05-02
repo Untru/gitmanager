@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16add629-f06a-4cb9-aa89-755f5b7dd3cb">
+  <producedTypes>
+    <managerType typeId="4fc91c2a-3a8c-4638-9810-860e7023cba1" valueTypeId="5946bfba-9a37-4c0c-a598-8588dd3f753b"/>
+    <valueManagerType typeId="2192685e-0c11-48a3-9d88-d7424e26ec24" valueTypeId="f7614ace-4e45-4b96-9c71-d802e015544d"/>
+    <valueKeyType typeId="58785cc8-7342-4483-8d57-d58fee0019f0" valueTypeId="e8fca93e-6c17-4c87-a9a6-5284140931d0"/>
+  </producedTypes>
+  <name>СтратегияЗапускаСкрипта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стратегия запуска скрипта</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СтратегияЗапускаСкрипта</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

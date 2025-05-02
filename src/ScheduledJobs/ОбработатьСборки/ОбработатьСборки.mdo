@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2af69f4c-7fda-479c-8227-c061a9b9400e">
+  <name>ОбработатьСборки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработать сборки</value>
+  </synonym>
+  <methodName>CommonModule.РаботаСJenkins.ОбработатьСборки</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fa3281d-3a6d-4a39-8e24-199b0abb3012">
+  <name>Интеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ВебСтраница</picture>
+  </picture>
+  <content>CommonModule.OPI_Инструменты</content>
+  <content>CommonModule.OPI_Криптография</content>
+  <content>CommonModule.OPI_ПреобразованиеТипов</content>
+  <content>CommonModule.OPI_Telegram</content>
+  <content>CommonModule.OPI_Notion</content>
+  <content>CommonModule.OPI_YandexID</content>
+  <content>CommonModule.OPI_YandexDisk</content>
+  <content>CommonModule.OPI_GoogleWorkspace</content>
+  <content>CommonModule.OPI_GoogleCalendar</content>
+  <content>CommonModule.OPI_GoogleSheets</content>
+  <content>CommonModule.OPI_Bitrix24</content>
+  <content>DataProcessor.ЗагрузкаЗадач</content>
+</mdclass:Subsystem>

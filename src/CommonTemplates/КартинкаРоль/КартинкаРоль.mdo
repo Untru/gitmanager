@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49243b1e-a97b-4a09-9852-cd66888ab359">
+  <name>КартинкаРоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картинка роль</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

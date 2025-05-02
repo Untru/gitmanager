@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53705fc3-b690-49a3-877b-3edf35a78ea3">
+  <name>ПараметрыКомандЗапуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры команд запуска</value>
+  </synonym>
+  <type>
+    <types>FixedStructure</types>
+  </type>
+</mdclass:SessionParameter>

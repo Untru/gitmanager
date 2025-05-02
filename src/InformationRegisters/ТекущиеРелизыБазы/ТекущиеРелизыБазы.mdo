@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffb334cb-c876-4688-af16-4707f5cc8cf7">
+  <producedTypes>
+    <selectionType typeId="64f36efb-0bdd-4f60-8c3a-395b9bfb3d2c" valueTypeId="b6aa8094-e2e2-4473-baba-ee52044acd43"/>
+    <listType typeId="787cc094-9dce-4e50-84c7-5ce8f7a3a3ca" valueTypeId="5a558d5d-5d35-4b2a-9eab-676ac4d4b3ab"/>
+    <managerType typeId="42302bba-bae2-4136-915c-26a589468df2" valueTypeId="8609a3e7-8e0f-4b69-9a7d-ec0f7cb5c5e9"/>
+    <recordSetType typeId="0ab424af-6792-46ef-a309-729cda6f2d50" valueTypeId="d0cc0b65-ae7e-4988-a81b-86085fa2ca22"/>
+    <recordKeyType typeId="6fc62cbd-5719-424c-83a3-180206650519" valueTypeId="ddfc0e3a-89fc-4984-af75-3a8e0543b202"/>
+    <recordType typeId="efd0a6d7-e5b3-442a-8d60-01af55bb7719" valueTypeId="d7232a2d-a572-4b0e-b04e-4ffbb5e0499c"/>
+    <recordManagerType typeId="0e7d56ba-1e48-4b0d-bc91-de809a2599a1" valueTypeId="89c91680-25bf-4293-821f-be8462536886"/>
+  </producedTypes>
+  <name>ТекущиеРелизыБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие релизы базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7398b3ff-ea88-4c02-97ec-76368321a2ca">
+    <name>Релиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Релиз</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="86af560d-bc6f-4911-8aa1-1c5d089fc3c4">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Базы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3524e0c6-f76b-4d8a-ae52-ddb9f7319026">
+  <name>ОбновитьДанныеЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить данные задач</value>
+  </synonym>
+  <methodName>CommonModule.РаботаСBitrix.ОбновитьДанныеЗадач</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

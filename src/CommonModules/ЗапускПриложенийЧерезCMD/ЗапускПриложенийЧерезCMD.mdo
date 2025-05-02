@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98abfc85-5dba-46b2-948a-a097bfd5f79c">
+  <name>ЗапускПриложенийЧерезCMD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск приложений через CMD</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

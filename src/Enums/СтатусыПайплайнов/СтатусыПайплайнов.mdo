@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87677198-c912-4f7c-a296-78788199fc45">
+  <producedTypes>
+    <refType typeId="e7a1a4dc-cdff-4e5e-b141-bedf72dd6501" valueTypeId="e37f75b4-9da9-48b4-b435-16567d47817d"/>
+    <listType typeId="b7d37065-115a-46a6-8201-9c1f02f83bd1" valueTypeId="1a3116df-754c-4ba9-965b-a275c67ea368"/>
+    <managerType typeId="4557dcca-bb72-43a2-92a9-3203688d01b5" valueTypeId="e6deeaa3-111a-4415-a434-9f2a4d2f39e0"/>
+  </producedTypes>
+  <name>СтатусыПайплайнов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы пайплайнов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="11e36561-2aa6-4f23-8b45-83ea6afb40da">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49518bbb-b871-498c-991d-bbfe58a67350">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1251ccef-bf38-427d-8be8-670cb76af84d">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d28a2929-c0c9-432e-b377-23d6b16ac906">
+    <name>ДобавленВОчередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлен в очередь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4645ef0a-49cd-48c3-94c5-389e092a408c">
+    <name>ПрочитанОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочитан отчет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1c3901e-18a0-4fc1-99fe-0e5b83304f69">
+  <name>МенеджерРелизов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер релизов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.МетаданныеКонстанты</picture>
+  </picture>
+  <content>DataProcessor.МенеджерРелизов</content>
+  <content>DataProcessor.РегистрацияРелиза</content>
+  <content>InformationRegister.ЗадачиРелиза</content>
+  <content>Document.Релиз</content>
+</mdclass:Subsystem>

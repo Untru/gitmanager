@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="583f9686-2e3a-4882-8196-b1423f420b83">
+  <producedTypes>
+    <managerType typeId="d74cb357-c380-47ba-99f7-beeb070f65d4" valueTypeId="86d15200-3bcb-4741-aaba-d28f010bcbb6"/>
+    <valueManagerType typeId="8e1ea6a1-5ab8-45f0-ac80-a118a8607c8c" valueTypeId="62f91870-d8b4-40c6-b2b2-cf3b8ec3d2b8"/>
+    <valueKeyType typeId="aa3f4a6a-3c8d-439f-9c0a-bf8a54aff0fe" valueTypeId="bd1a1119-7d6e-4ac2-8b17-7fbc250f8f5b"/>
+  </producedTypes>
+  <name>ПутьКПапкеДевопсСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к папке девопс сервера</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

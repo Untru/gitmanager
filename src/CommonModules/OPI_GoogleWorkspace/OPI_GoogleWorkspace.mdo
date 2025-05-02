@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d1aa877-4904-4a4a-9cbd-2cc9de1c2ca4">
+  <name>OPI_GoogleWorkspace</name>
+  <synonym>
+    <key></key>
+    <value>OPI google workspace</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

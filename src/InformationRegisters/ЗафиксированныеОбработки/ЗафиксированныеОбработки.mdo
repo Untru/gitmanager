@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73784fd6-6bcc-4f39-8013-628d156cdbc3">
+  <producedTypes>
+    <selectionType typeId="0db13525-7b60-4f84-989e-edb020fa83c1" valueTypeId="cd572a00-ee21-4acc-ba86-3dc9c25e0ad3"/>
+    <listType typeId="c919230e-2f73-44c1-b33e-f41457b69fff" valueTypeId="cbbb39f8-73b3-41c8-b9da-d22799227cc7"/>
+    <managerType typeId="3bcf0952-4f54-4cf2-b36a-47390d57e761" valueTypeId="909f024a-c7f9-47fa-8ca2-95b81b641581"/>
+    <recordSetType typeId="9b193e25-9acf-4c32-8d5e-d905f4a6b318" valueTypeId="70f025a9-a99c-46f1-8424-6e09838a966c"/>
+    <recordKeyType typeId="c8149e27-ea1a-48a6-acd5-5ad0b93d7aab" valueTypeId="d9b6602a-1f8e-4823-b386-18ab5dbb0cbc"/>
+    <recordType typeId="d0972f32-587e-4e46-a6c8-d9585f72884b" valueTypeId="a6318e6d-9297-49f7-9712-90cc47c164b7"/>
+    <recordManagerType typeId="f6a14149-9f65-458d-9f64-71467b080210" valueTypeId="927ecd83-5bdd-4f8d-877d-498cc546d7f0"/>
+  </producedTypes>
+  <name>ЗафиксированныеОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зафиксированные обработки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="07412e60-e9ee-487c-97a4-eb5fec6d0241">
+    <name>ДатаФиксации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата фиксации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4676fa18-eec4-4f1b-a914-5e9f914182ae">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="bc2208a3-5768-4661-a0f0-481ddaf701f9">
+    <name>Обработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыРазработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

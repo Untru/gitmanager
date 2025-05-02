@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planner:PlannerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:planner="http://g5.1c.ru/v8/dt/planner/model">
+  <items>
+    <value xsi:type="core:UndefinedValue"/>
+    <begin>2018-01-22T01:00:00</begin>
+    <end>2018-01-22T04:00:00</end>
+    <text>Встреча</text>
+    <border xsi:type="core:BorderDef">
+      <style>Single</style>
+      <width>1</width>
+    </border>
+    <font xsi:type="core:AutoFont"/>
+    <replacementDate>0001-01-01T00:00:00</replacementDate>
+    <itemId>b4932507-cb53-40af-8843-52fffff66777</itemId>
+  </items>
+  <alignItemBoundariesByTimeScale>true</alignItemBoundariesByTimeScale>
+  <wrappedTimeScaleHeaderFormat>
+    <key>#</key>
+    <value>DLF=&quot;DD&quot;</value>
+  </wrappedTimeScaleHeaderFormat>
+  <wrappedTimeScaleHeaderFormat>
+    <key>ru</key>
+    <value>ДЛФ=DD</value>
+  </wrappedTimeScaleHeaderFormat>
+  <periodicVariantUnit>Day</periodicVariantUnit>
+  <border xsi:type="core:BorderDef">
+    <style>Single</style>
+    <width>1</width>
+  </border>
+  <borderColor xsi:type="core:ColorRef">
+    <color>Style.FormBackColor</color>
+  </borderColor>
+  <lineColor xsi:type="core:ColorDef">
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+  </lineColor>
+  <backColor xsi:type="core:ColorDef">
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+  </backColor>
+  <font xsi:type="core:AutoFont"/>
+  <beginOfRepresentationPeriod>0001-01-01T00:00:00</beginOfRepresentationPeriod>
+  <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>
+  <timeScale>
+    <placement>Left</placement>
+    <levels>
+      <interval>1</interval>
+      <show>true</show>
+      <line>
+        <width>1</width>
+      </line>
+      <scaleColor xsi:type="core:ColorDef">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+      </scaleColor>
+      <format>
+        <key>ru</key>
+        <value>ДФ=</value>
+      </format>
+      <labels/>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.FormTextColor</color>
+      </textColor>
+      <showPereodicalLabels>true</showPereodicalLabels>
+    </levels>
+  </timeScale>
+  <periods>
+    <begin>2020-09-04T00:00:00</begin>
+    <end>2020-09-04T23:59:59</end>
+  </periods>
+</planner:PlannerSettings>

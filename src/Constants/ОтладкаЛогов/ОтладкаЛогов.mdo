@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ef8666f-8066-4789-918f-e5734faa613a">
+  <producedTypes>
+    <managerType typeId="d7df7281-bd19-4042-8a2d-8f58de8a5b51" valueTypeId="2c15ee36-b0a9-4409-be59-020b7a260388"/>
+    <valueManagerType typeId="d3548e67-1890-44ff-8837-002ed1df8aa4" valueTypeId="b0c94f74-4cf9-45eb-b58c-31061ae8bfef"/>
+    <valueKeyType typeId="64f96ddf-c123-4f93-a88b-9caf58eadf28" valueTypeId="332c7406-8c7d-4320-afa6-8074df16c6cf"/>
+  </producedTypes>
+  <name>ОтладкаЛогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отладка логов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

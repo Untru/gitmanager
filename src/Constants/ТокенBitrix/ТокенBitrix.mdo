@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="003ead5e-aed9-4ce8-a742-e34156a5f01d">
+  <producedTypes>
+    <managerType typeId="0fdff3c5-c783-427a-88fd-79ca8af58319" valueTypeId="c7d41544-7b85-4ad4-a5a4-1b4f85fcd2e1"/>
+    <valueManagerType typeId="1f14a4a4-45d0-4a63-b50a-ac08df7922ed" valueTypeId="d3095a51-9389-451c-9173-3ce871fd7f19"/>
+    <valueKeyType typeId="04ec0a59-d373-4b85-93e2-8de3d4b733f1" valueTypeId="defac1f1-5aef-4798-98f7-d6c81950f998"/>
+  </producedTypes>
+  <name>ТокенBitrix</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен bitrix</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5e7ce4a-f318-4069-989e-b9f0c674b376">
+  <producedTypes>
+    <objectType typeId="1605c7d7-e064-4ae3-a10c-beb7f4450d1d" valueTypeId="ea84c1f5-306b-4c48-90a3-08b98234e055"/>
+    <managerType typeId="198857de-c514-4a9b-87fe-984c171fd61d" valueTypeId="d6d04afe-a7c0-4da8-a51c-2ecc928b3e66"/>
+  </producedTypes>
+  <name>АнализРазработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ разработки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АнализРазработки.Form.Форма</defaultForm>
+  <forms uuid="733e6105-33f7-452a-b979-a8737cc869d9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d4aebf2a-d97f-4ed2-b406-16c367e7ed03">
+    <name>ПечатьВсеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать все задачи</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4e76ac2-2e6e-497b-ae70-261a3bd618eb">
+  <producedTypes>
+    <selectionType typeId="d372d526-5d42-473e-9224-9dcf621a43f5" valueTypeId="ca972228-1e86-4326-8ab3-2f317fc40900"/>
+    <listType typeId="b46b74f6-f955-4c49-916a-0a2a8c871bae" valueTypeId="ebbaed11-2c71-4ca8-bbf7-97c15a60b939"/>
+    <managerType typeId="94611560-3cba-4307-ba7b-8dd6c2a2dce1" valueTypeId="7e0510f4-1ad8-4422-af71-d1166a62a60a"/>
+    <recordSetType typeId="b5bbe995-b64f-4c51-8249-23b9aefa1730" valueTypeId="a46dd3ae-bb7c-4bc8-bff3-cc03f68a0fcb"/>
+    <recordKeyType typeId="7ea0c364-25dd-4f9d-925f-7393a2786910" valueTypeId="16288aa1-ac9c-4949-8875-a0814a49fbfe"/>
+    <recordType typeId="6252d11f-ca5d-4535-bc5e-dac1cba56dfd" valueTypeId="8ff91e7e-b6fc-4730-bf01-1b5b9f7e2cae"/>
+    <recordManagerType typeId="6a5c5809-0f16-40fa-9246-a7762808c089" valueTypeId="4539aeb9-6d62-4c8f-81f1-cf10f609d151"/>
+  </producedTypes>
+  <name>СтатусыРелизов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы релизов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8a1d5b49-96e5-4460-949f-ad0f32510999">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="51cdbd5c-ebe8-44f3-ae48-275ab454180a">
+    <name>Релиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Релиз</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Релиз</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

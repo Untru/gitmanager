@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d22357a-9e51-41a7-b36a-fe686bb0e24b">
+  <producedTypes>
+    <objectType typeId="cfab7bde-0bc6-4da3-afb7-fd2b124387ad" valueTypeId="471c7144-ac59-4b85-a4fb-0aa748b66985"/>
+    <managerType typeId="98e9e8cc-7702-4d31-be9e-350aece876ae" valueTypeId="7136a899-13c3-48f5-9111-88ea7c12cdf2"/>
+  </producedTypes>
+  <name>МенеджерРелизов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер релизов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МенеджерРелизов.Form.ФормаМеню</defaultForm>
+  <attributes uuid="cd797861-12d5-441a-a660-c23fd640c2fa">
+    <name>ДанныеЛогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные логов</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="19ca9b3e-b4b3-4748-92f8-10ef3e23299f">
+    <name>БазаСборкиРелиза</name>
+    <synonym>
+      <key>ru</key>
+      <value>База сборки релиза</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Базы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="958c61fe-2dc7-4ca7-a92a-9b8471638fcf">
+    <name>Релиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Релиз</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Релиз</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="684c6112-dafe-4cdb-9edd-f0a2b06fd0d1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6a4c359-af0a-4cd6-b850-9f47366582cc">
+    <name>ФормаМеню</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма меню</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

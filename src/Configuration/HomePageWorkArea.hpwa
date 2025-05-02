@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hpwa:HomePageWorkArea xmlns:hpwa="http://g5.1c.ru/v8/dt/hpwa">
+  <workingAreaTemplate>TwoColumnsEqualWidth</workingAreaTemplate>
+  <columns>
+    <items>
+      <form>DataProcessor.УправлениеЗадачами.Form.Форма</form>
+      <height>10</height>
+      <visibility>
+        <for>
+          <value>true</value>
+          <role>Role.ПолныеПрава</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.Программист</role>
+        </for>
+      </visibility>
+    </items>
+    <items>
+      <form>InformationRegister.ЗадачиРелиза.Form.ФормаСписка</form>
+      <height>10</height>
+      <visibility>
+        <for>
+          <value>true</value>
+          <role>Role.БизнесАналитик</role>
+        </for>
+      </visibility>
+    </items>
+  </columns>
+  <columns/>
+</hpwa:HomePageWorkArea>

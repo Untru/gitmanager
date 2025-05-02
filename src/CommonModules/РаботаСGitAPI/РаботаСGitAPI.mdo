@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="293f548d-4f74-47e9-ac9e-6c3db8f3efc3">
+  <name>РаботаСGitAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с git API</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

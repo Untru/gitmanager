@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba55a42f-b67a-47b8-b511-81832f84d9b8">
+  <name>ПодключениеКRDP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение к RDP</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.OpenFromMainServer</picture>
+  </picture>
+  <content>CommonTemplate.RDPClient_Макет</content>
+  <content>Catalog.УчетныеДанныеRDP</content>
+  <content>Catalog.Кластеры</content>
+</mdclass:Subsystem>

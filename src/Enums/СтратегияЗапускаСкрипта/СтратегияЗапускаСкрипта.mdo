@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7889d540-2921-4274-96c3-07759216cb64">
+  <producedTypes>
+    <refType typeId="3ea2685d-1fc7-455b-bdba-1fd392787719" valueTypeId="fa34fb10-9362-48e7-9ef5-45c8de944264"/>
+    <listType typeId="d03b6527-6d02-4dfa-8346-3f5407679281" valueTypeId="647b7a44-9228-48c9-8466-c0e65364d960"/>
+    <managerType typeId="3784b1fb-2d08-44bf-baeb-92e51c79bd6f" valueTypeId="32e16044-5de1-496b-bf5c-08df948bdd3a"/>
+  </producedTypes>
+  <name>СтратегияЗапускаСкрипта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стратегия запуска скрипта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="08fced5f-974b-4499-8ebb-28f808660e87">
+    <name>CMD</name>
+    <synonym>
+      <key>ru</key>
+      <value>CMD</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efb866ea-b5d5-48f0-b411-6471c8ca979e">
+    <name>Shell</name>
+    <synonym>
+      <key>ru</key>
+      <value>Shell</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="239f256a-7fa6-44e2-970e-322ebe607ff7">
+    <name>Jenkins</name>
+    <synonym>
+      <key>ru</key>
+      <value>Jenkins</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="379bd29a-bbdb-453d-8011-cc714f23eac7">
+    <name>HTTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTTP</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

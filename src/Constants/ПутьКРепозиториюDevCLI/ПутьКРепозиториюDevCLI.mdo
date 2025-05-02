@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d102933d-7785-49f2-a90a-01c1d56de3d9">
+  <producedTypes>
+    <managerType typeId="8484c924-38e2-40da-928f-027fc283bbf8" valueTypeId="9bbae3ff-185b-425d-9d62-d9919d703491"/>
+    <valueManagerType typeId="3c4da37a-1cd2-4f3d-9197-278df078fb4f" valueTypeId="aa273c12-f63b-4ca8-b142-e701540d8581"/>
+    <valueKeyType typeId="13c04d79-d558-48bb-843b-022f5ee246f9" valueTypeId="fda146a4-50eb-4413-ab61-42e9d05c6c73"/>
+  </producedTypes>
+  <name>ПутьКРепозиториюDevCLI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к репозиторию DevCli</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

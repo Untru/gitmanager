@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cfe69ad-84ed-4a3f-b3ae-4a3069343f28">
+  <producedTypes>
+    <selectionType typeId="6e55581f-b910-46b7-93b6-1f65db7c334c" valueTypeId="d50b0c07-249d-4217-a6e2-860071d21c71"/>
+    <listType typeId="39e43d15-4382-433d-99e5-d6a70e75046d" valueTypeId="27db51a5-8b4a-4a47-814c-6a3da8bae7f6"/>
+    <managerType typeId="1e6b59ea-0feb-4f14-b5ad-58082b4feb78" valueTypeId="51ebc9fb-0909-4af3-9696-283e1c566e7a"/>
+    <recordSetType typeId="165cf52a-3f7d-475b-9105-1472f71632a7" valueTypeId="d89753e3-3b95-450a-a5ea-fac1d0116b2d"/>
+    <recordKeyType typeId="42d91479-b4f5-4395-b7b3-8cce1f1ae270" valueTypeId="0364c9f6-60ed-4f61-bdba-afa025c291b0"/>
+    <recordType typeId="508d4fab-5f14-4396-bf0f-381692500930" valueTypeId="f235cb85-b6ec-499c-936e-bb386f3ff089"/>
+    <recordManagerType typeId="4cbda851-7d39-4f56-a480-95d281ae5ea7" valueTypeId="e402a76c-3120-4694-80ef-127ab3530969"/>
+  </producedTypes>
+  <name>РеестрОбъектовРазработкиИсключенияНаРеализацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр объектов разработки исключения на реализацию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e1f82c54-7814-4ab8-8393-9761b4960f17">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Базы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0f4104d7-df96-4991-933a-625e5b17c17b">
+    <name>ОбъектРазработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект разработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыРазработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

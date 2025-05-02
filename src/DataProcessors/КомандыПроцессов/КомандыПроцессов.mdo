@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69ea629c-fc72-4e70-8cb3-e3bd6a58b5bf">
+  <producedTypes>
+    <objectType typeId="68d78c4c-f68e-4842-8cc2-b45d54b360c4" valueTypeId="5b5081cf-3b86-48a9-a7e0-b475e0da2275"/>
+    <managerType typeId="0ef8321f-a513-4820-b66e-b3f7276c1024" valueTypeId="63202cb5-1ff2-4ea3-a730-fd4947e18e58"/>
+  </producedTypes>
+  <name>КомандыПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды процессов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="134510cf-2fdc-4a1e-9e9d-7bd768dcf313">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2263c791-9372-4ff0-ba03-776420115081">
+  <producedTypes>
+    <selectionType typeId="62281926-664b-4b02-9378-a1d34e6cab55" valueTypeId="ece24072-dc4f-4f59-9d94-8a66f5d71c23"/>
+    <listType typeId="2e49db16-138f-4cf5-9259-f9acba7c7a52" valueTypeId="f7d11891-0c9c-4841-9299-98f2b7a31ba3"/>
+    <managerType typeId="1abb5e48-0905-4719-b894-170d16bab009" valueTypeId="9d12b2ad-8d6e-4ee3-8884-36726dfff898"/>
+    <recordSetType typeId="8018f4bd-8b23-4996-be91-a8eddc4c1c45" valueTypeId="3ddfa8f2-debb-42e0-bb89-9512406c5cd6"/>
+    <recordKeyType typeId="04c9d300-1931-4364-9303-03f95c658e43" valueTypeId="542707e0-6c1c-427a-80b5-2b99d080419a"/>
+    <recordType typeId="5972fd3c-2c3f-4719-bf1a-1e9376db3e81" valueTypeId="fcc47c74-8fd7-44f3-84ac-3154d9d4a9f1"/>
+    <recordManagerType typeId="411b5876-fba9-49ea-b47a-ad5ed788a96d" valueTypeId="d692761f-215c-4ee5-b7ce-b40a7617b36e"/>
+  </producedTypes>
+  <name>ЗадачиРелиза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи релиза</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЗадачиРелиза.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e98832a1-00b3-4328-8d84-c4c72f66d766">
+    <name>Принял</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принял</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="675f5ad3-21e0-464f-8b2a-68249a441304">
+    <name>Принята</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принята</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1dc1c514-a42c-4653-8439-79fb4c2b7fe8">
+    <name>НетЗадачиВГит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет задачи в гит</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="511bbe02-1e4a-4c3d-97f2-d6e89f16b1a6">
+    <name>НетЗадачиВБитрикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет задачи в битрикс</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9b355e16-1ce6-4655-9552-ad936c678349">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="bd2919ba-ba91-43fc-b48c-b4cab140bf6f">
+    <name>Релиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Релиз</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Релиз</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f5c77e3a-bf37-48dc-8bc1-c16bcd21f0ab">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a77f48cc-152d-4209-89ff-095363dc3ea9">
+    <name>Постановщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постановщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b4a9a722-77de-49df-aa15-2c0a7683259d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f787e372-5bea-4dde-892d-6b2499ce5f0b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

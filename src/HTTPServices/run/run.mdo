@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97e16989-e6f6-4dda-932b-440cd5b94163">
+  <name>run</name>
+  <synonym>
+    <key>ru</key>
+    <value>Run</value>
+  </synonym>
+  <rootURL>run</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="b6e1901c-3cd6-41a5-9949-e93ac94ae561">
+    <name>script</name>
+    <synonym>
+      <key>ru</key>
+      <value>Script</value>
+    </synonym>
+    <template>/script</template>
+    <methods uuid="3a0131b7-7e3d-471f-b0f3-06fc4dc40606">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>scriptpost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="79880d5c-121f-4b26-bd66-83f20f6a23e6">
+    <name>logs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Logs</value>
+    </synonym>
+    <template>/logs</template>
+    <methods uuid="fec25c74-0372-492f-bdaa-87a62b20d551">
+      <name>logs</name>
+      <synonym>
+        <key>ru</key>
+        <value>Logs</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>logspost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="15ad96a3-a27c-4a75-aa9a-d96d534829ed">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="2406a439-d20f-4eb1-a0d3-0c6e99be955e">
+      <name>ping</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ping</value>
+      </synonym>
+      <handler>pingping</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="00d199a3-21bc-46aa-84bb-ce356327e1a4">
+    <name>ChangeVersion</name>
+    <synonym>
+      <key>ru</key>
+      <value>Change version</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="96324be1-ca1f-4617-a5ae-d8c0b209d4c1">
+      <name>ChangeVersion</name>
+      <synonym>
+        <key>ru</key>
+        <value>Change version</value>
+      </synonym>
+      <handler>ChangeVersionChangeVersion</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d7a3a078-d5a5-47d0-9248-42a3c6d6da11">
+    <name>updatedataprocessors</name>
+    <synonym>
+      <key>ru</key>
+      <value>UpdateDataProcessors</value>
+    </synonym>
+    <template>/updatedataprocessors</template>
+    <methods uuid="7b065f10-8e10-43d0-a6fa-e01b0edc247a">
+      <name>updatedataprocessors</name>
+      <synonym>
+        <key>ru</key>
+        <value>UpdateDataProcessors</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>updatedataprocessors</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

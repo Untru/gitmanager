@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1decaaab-4bd1-4140-8c19-c809741d00fd">
+  <producedTypes>
+    <objectType typeId="14a34f96-366f-4cb6-8d17-baffab3ffeda" valueTypeId="6c655940-3c41-42e9-a0c3-a714e6dfc4df"/>
+    <refType typeId="447a4b48-123b-41b8-a649-8634b0b1d9fb" valueTypeId="40180869-113f-422c-bd26-2c54c8e52c9a"/>
+    <selectionType typeId="eccfbc01-d194-44c5-87ab-62e0e85e97a2" valueTypeId="50655e54-3d5e-450b-ae18-e3553838a87d"/>
+    <listType typeId="016ff094-3d79-43a7-906d-a262ebf3ce03" valueTypeId="52b7e964-c2cc-48f4-8258-89b5aae125dd"/>
+    <managerType typeId="d72b9620-3aee-4abf-84ce-e47e37c22295" valueTypeId="2cde17f2-1ac4-46a8-8bd8-82ea6ee2d07f"/>
+  </producedTypes>
+  <name>СтадииКанбан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стадии канбан</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтадииКанбан.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтадииКанбан.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтадииКанбан.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтадииКанбан.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="2900c602-0107-4d65-beb5-0d2b6ba70ea7">
+    <name>КодBitrix</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код bitrix</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="95984888-3397-4c42-825c-6a4b18043bf7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fc7a4606-0ad6-418f-9b7f-1c4690c735d8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
