@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55e99ede-f6f0-4d45-a4e2-40b9e78879d1">
+  <producedTypes>
+    <selectionType typeId="cd10c562-cb86-483f-b4d8-9bcb06e7662c" valueTypeId="47afa3d5-bb2d-4c3a-95e3-77aff25121b8"/>
+    <listType typeId="7f7ad586-3eea-45da-8405-86b84a75955f" valueTypeId="aa7c56f3-cb01-43b3-9278-7cf87ff26ebe"/>
+    <managerType typeId="9f5d2f04-2ba9-473a-aade-6a47ca5acc7a" valueTypeId="aefe32ed-bad4-4639-8d89-cda7d7a88afd"/>
+    <recordSetType typeId="6b0f7e29-beb2-41d4-811b-78853190331c" valueTypeId="384e7876-9899-459c-a202-b830e383b12c"/>
+    <recordKeyType typeId="4348c83d-e9c0-4c9f-933d-9fb7a4e6bc38" valueTypeId="56b1c3da-9574-44c8-8d07-d7ca4d67ad57"/>
+    <recordType typeId="85593509-f020-4c1e-ac2a-40f41d65a9db" valueTypeId="402310d8-c58c-4b96-99f5-b1358350039a"/>
+    <recordManagerType typeId="debe2747-2629-4129-b52e-a9e3e301946a" valueTypeId="2a322d08-8b94-4913-b673-18512b7822bc"/>
+  </producedTypes>
+  <name>ДанныеДляСкрытияВЛогах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные для скрытия в логах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="91c96b5b-360f-4690-a52f-cd94505147b4">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
