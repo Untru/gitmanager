@@ -341,7 +341,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Проекты.Attribute.ИДПроектаGitLab</name>
+		<name>Catalog.Проекты.Attribute.ИДПроектаРепозитория</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1064,7 +1064,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Проекты.Attribute.URLGitLab</name>
+		<name>Catalog.Проекты.Attribute.Репозиторий</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
