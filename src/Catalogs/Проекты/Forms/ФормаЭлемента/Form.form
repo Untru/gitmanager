@@ -90,7 +90,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.URLGitLab</segments>
+      <segments>Объект.Репозиторий</segments>
     </dataPath>
     <extendedTooltip>
       <name>URLGitLabРасширеннаяПодсказка</name>
@@ -130,7 +130,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ИДПроектаGitLab</segments>
+      <segments>Объект.ИДПроектаРепозитория</segments>
     </dataPath>
     <extendedTooltip>
       <name>ИДПроектаGitLabРасширеннаяПодсказка</name>
