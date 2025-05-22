@@ -580,7 +580,7 @@
             <segments>СпособАутентификации</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <shortcut>Cmd+S</shortcut>
+          <shortcut>S</shortcut>
           <handlers>
             <event>OnChange</event>
             <name>СпособАутентификацииПриИзменении</name>

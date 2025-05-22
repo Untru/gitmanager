@@ -1631,7 +1631,7 @@
         <key>ru</key>
         <value>Описание</value>
       </title>
-      <shortcut>Option+1</shortcut>
+      <shortcut>1</shortcut>
       <extendedTooltip>
         <name>СтраницаОписаниеРасширеннаяПодсказка</name>
         <id>4</id>
@@ -3192,7 +3192,7 @@
         <key>ru</key>
         <value>Объекты</value>
       </title>
-      <shortcut>Option+2</shortcut>
+      <shortcut>2</shortcut>
       <extendedTooltip>
         <name>СтраницаОбъектыРасширеннаяПодсказка</name>
         <id>6</id>
@@ -4611,7 +4611,7 @@
         <key>ru</key>
         <value>Конфликты</value>
       </title>
-      <shortcut>Option+3</shortcut>
+      <shortcut>3</shortcut>
       <extendedTooltip>
         <name>СтраницаКонфликтыРасширеннаяПодсказка</name>
         <id>276</id>
@@ -5329,7 +5329,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+1</shortcut>
+    <shortcut>1</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗаполнитьОбработчик1</name>
@@ -5351,7 +5351,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+2</shortcut>
+    <shortcut>2</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗаполнитьОбработчик2</name>
@@ -5373,7 +5373,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+3</shortcut>
+    <shortcut>3</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗаполнитьЛюбой</name>
@@ -5519,7 +5519,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+Shift+A</shortcut>
+    <shortcut>Shift+A</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ВыделитьПустойПорядок</name>

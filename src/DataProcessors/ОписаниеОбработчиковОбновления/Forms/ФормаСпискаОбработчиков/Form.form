@@ -3455,7 +3455,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+1</shortcut>
+    <shortcut>1</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПоказатьТекстМодулей</name>

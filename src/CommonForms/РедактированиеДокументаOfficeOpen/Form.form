@@ -2019,7 +2019,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+C</shortcut>
+    <shortcut>C</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.СкопироватьВБуферОбмена</picture>
     </picture>

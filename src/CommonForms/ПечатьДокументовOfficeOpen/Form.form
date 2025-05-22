@@ -2304,7 +2304,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+Shift+P</shortcut>
+    <shortcut>Shift+P</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.PrintImmediately</picture>
     </picture>

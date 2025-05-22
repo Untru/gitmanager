@@ -4457,7 +4457,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+Shift+V</shortcut>
+    <shortcut>Shift+V</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.ВнешняяСсылкаНаОбъектИнформационнойБазы</picture>
     </picture>
