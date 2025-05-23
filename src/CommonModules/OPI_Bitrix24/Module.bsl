@@ -2,6 +2,9 @@
 // Lib: Bitrix24
 // CLI: bitrix24
 
+// @strict-types
+
+
 // MIT License
 
 // Copyright (c) 2023 Anton Tsitavets

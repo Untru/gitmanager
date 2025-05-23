@@ -67,6 +67,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d405d026-603c-482d-8548-c597d6441fb6">
+    <name>ТипТаскТрекера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип таск трекера</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТаскТрекеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6323ad78-7d48-40fb-897d-ea9b8478b671">
     <name>ФормаЭлемента</name>
     <synonym>
