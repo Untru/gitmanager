@@ -2939,7 +2939,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+Num .</shortcut>
+    <shortcut>Ctrl+Num .</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СледующаяСтраницаГрафиков</name>
@@ -2961,7 +2961,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+Num 0</shortcut>
+    <shortcut>Ctrl+Num 0</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПредыдущаяСтраницаГрафиков</name>

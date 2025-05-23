@@ -16,14 +16,14 @@
     <name>GitLab</name>
     <synonym>
       <key>ru</key>
-      <value>Git lab</value>
+      <value>GitLab</value>
     </synonym>
   </enumValues>
   <enumValues uuid="4c316383-5097-41ef-a65f-d0a737886e9d">
     <name>GitHub</name>
     <synonym>
       <key>ru</key>
-      <value>Git hub</value>
+      <value>GitHub</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

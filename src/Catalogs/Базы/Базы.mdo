@@ -557,6 +557,7 @@
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.ОткрытьМакет</picture>
     </picture>
+    <shortcut>Ctrl+Alt+Shift+D</shortcut>
   </commands>
   <commands uuid="d8107989-1cc3-40a4-aeec-c1f4761ac104">
     <name>ДобавитьКаталог</name>

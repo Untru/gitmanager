@@ -4296,7 +4296,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+S</shortcut>
+    <shortcut>Ctrl+S</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Write</picture>
     </picture>

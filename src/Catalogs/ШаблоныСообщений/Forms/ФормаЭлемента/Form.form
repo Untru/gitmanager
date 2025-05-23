@@ -760,7 +760,7 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Доступен</segments>
           </dataPath>
-          <shortcut>Cmd+S</shortcut>
+          <shortcut>Ctrl+S</shortcut>
           <extendedTooltip>
             <name>ДоступенРасширеннаяПодсказка</name>
             <id>371</id>

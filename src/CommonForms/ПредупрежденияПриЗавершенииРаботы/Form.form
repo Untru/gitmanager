@@ -54,7 +54,7 @@
         <key>ru</key>
         <value>Дополнительные действия при завершении работы:</value>
       </title>
-      <shortcut>Cmd+S</shortcut>
+      <shortcut>Ctrl+S</shortcut>
       <extendedTooltip>
         <name>ОсновнаяГруппаExtendedTooltip</name>
         <id>35</id>

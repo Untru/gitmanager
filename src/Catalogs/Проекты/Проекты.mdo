@@ -113,10 +113,10 @@
   <defaultObjectForm>Catalog.Проекты.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Проекты.Form.ФормаСписка</defaultListForm>
   <attributes uuid="8636a5c8-a93d-443d-8ad6-5529b594589b">
-    <name>URLGitLab</name>
+    <name>Репозиторий</name>
     <synonym>
       <key>ru</key>
-      <value>URL git lab</value>
+      <value>Репозиторий (Url)</value>
     </synonym>
     <type>
       <types>String</types>
@@ -133,10 +133,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="2c1fd9d1-7bad-40c7-88fe-9b46bc9277a0">
-    <name>ИДПроектаGitLab</name>
+    <name>ИДПроектаРепозитория</name>
     <synonym>
       <key>ru</key>
-      <value>ИД проекта git lab</value>
+      <value>ИД Проекта</value>
     </synonym>
     <type>
       <types>String</types>

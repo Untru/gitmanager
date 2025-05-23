@@ -11,7 +11,7 @@
     <dataPath xsi:type="form:DataPath">
       <segments>ВидСвойств</segments>
     </dataPath>
-    <shortcut>Cmd+S</shortcut>
+    <shortcut>Ctrl+S</shortcut>
     <handlers>
       <event>OnChange</event>
       <name>ВидСвойствПриИзменении</name>

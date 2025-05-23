@@ -301,7 +301,7 @@
           <key>ru</key>
           <value>Период блокировки</value>
         </title>
-        <shortcut>Cmd+S</shortcut>
+        <shortcut>Ctrl+S</shortcut>
         <extendedTooltip>
           <name>ГруппаПериодБлокировкиExtendedTooltip</name>
           <id>99</id>
@@ -760,7 +760,7 @@
               <value>Период блокировки 1</value>
             </title>
             <readOnly>true</readOnly>
-            <shortcut>Cmd+S</shortcut>
+            <shortcut>Ctrl+S</shortcut>
             <extendedTooltip>
               <name>ГруппаПериодБлокировки1ExtendedTooltip</name>
               <id>111</id>

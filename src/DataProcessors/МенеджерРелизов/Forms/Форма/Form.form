@@ -3187,7 +3187,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+J</shortcut>
+    <shortcut>Ctrl+J</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>АктивироватьКнопкиОсобогоКонтроля</name>

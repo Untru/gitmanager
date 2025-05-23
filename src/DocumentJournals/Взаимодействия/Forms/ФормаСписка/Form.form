@@ -162,7 +162,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>СтрокаПоиска</segments>
       </dataPath>
-      <shortcut>Cmd+Shift+F</shortcut>
+      <shortcut>Shift+F</shortcut>
       <handlers>
         <event>OnChange</event>
         <name>СтрокаПоискаПриИзменении</name>
@@ -8815,7 +8815,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+N</shortcut>
+    <shortcut>N</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СоздатьЭлектронноеПисьмо</name>
@@ -8837,7 +8837,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+F9</shortcut>
+    <shortcut>F9</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.ОтправитьПолучитьПочту</picture>
     </picture>
@@ -9019,7 +9019,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+R</shortcut>
+    <shortcut>R</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.УстановитьПризнакРассмотреноДляВзаимодействия</picture>
     </picture>
@@ -9045,7 +9045,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Option+Shift+R</shortcut>
+    <shortcut>Shift+R</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.СнятьПризнакРассмотреноУВзаимодействия</picture>
     </picture>
@@ -9067,7 +9067,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+G</shortcut>
+    <shortcut>G</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.УстановитьПредметВзаимодействия</picture>
     </picture>
@@ -9092,7 +9092,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+M</shortcut>
+    <shortcut>M</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.УстановитьОтветственногоЗаВзаимодействие</picture>
     </picture>
@@ -9117,7 +9117,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+B</shortcut>
+    <shortcut>B</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.ОтложитьРассмотрениеВзаимодействия</picture>
     </picture>
@@ -9143,7 +9143,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+F2</shortcut>
+    <shortcut>F2</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Change</picture>
     </picture>

@@ -572,6 +572,6 @@
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.СохранитьФайлКак</picture>
     </picture>
-    <shortcut>Cmd+Shift+S</shortcut>
+    <shortcut>Shift+S</shortcut>
   </commands>
 </mdclass:DocumentJournal>

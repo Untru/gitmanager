@@ -73,7 +73,7 @@
         <segments>ПоискВВебСервисе</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <shortcut>Cmd+F</shortcut>
+      <shortcut>Ctrl+F</shortcut>
       <extendedTooltip>
         <name>ПоискВВебСервисеРасширеннаяПодсказка</name>
         <id>97</id>
@@ -154,7 +154,7 @@
       <key>ru</key>
       <value>Командная панель</value>
     </title>
-    <shortcut>Cmd+F</shortcut>
+    <shortcut>Ctrl+F</shortcut>
     <extendedTooltip>
       <name>ГруппаКоманднаяПанельСПоискомРасширеннаяПодсказка</name>
       <id>99</id>

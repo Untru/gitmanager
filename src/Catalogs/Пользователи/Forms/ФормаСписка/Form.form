@@ -4260,7 +4260,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Cmd+Shift+M</shortcut>
+    <shortcut>Ctrl+Shift+M</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.MoveItem</picture>
     </picture>

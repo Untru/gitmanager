@@ -3503,7 +3503,7 @@
             <key>ru</key>
             <value>Пояснение к необработанным</value>
           </title>
-          <shortcut>Cmd+S</shortcut>
+          <shortcut>Ctrl+S</shortcut>
           <extendedTooltip>
             <name>ГруппаПояснениеКНеобработаннымРасширеннаяПодсказка</name>
             <id>284</id>
