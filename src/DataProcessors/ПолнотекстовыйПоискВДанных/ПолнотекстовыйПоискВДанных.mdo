@@ -62,6 +62,6 @@
     <group>ActionsPanelTools</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut>F</shortcut>
+    <shortcut>Ctrl+F</shortcut>
   </commands>
 </mdclass:DataProcessor>

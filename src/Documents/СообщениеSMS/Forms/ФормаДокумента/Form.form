@@ -2098,7 +2098,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>S</shortcut>
+    <shortcut>Ctrl+S</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.AddListItem</picture>
     </picture>
