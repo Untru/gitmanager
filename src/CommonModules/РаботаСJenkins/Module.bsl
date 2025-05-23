@@ -1,3 +1,5 @@
+// @strict-types
+
 #Область ПрограммныйИнтерфейс
 
 Функция СсылкаAllure(URLJenkins, ИмяJobJenkins, НомерJob) Экспорт

@@ -2,6 +2,9 @@
 // Lib: Telegram
 // CLI: telegram
 
+// @strict-types
+
+
 // MIT License
 
 // Copyright (c) 2023 Anton Tsitavets

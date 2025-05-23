@@ -494,36 +494,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="005526d5-995e-4f1d-bc61-e674e59be51c">
-    <name>ToolsWorld</name>
-    <synonym>
-      <key>ru</key>
-      <value>Tools world</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:BooleanValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="a024a923-a770-4186-8081-ffd223b522e5">
-    <name>Aelita</name>
-    <synonym>
-      <key>ru</key>
-      <value>Aelita</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:BooleanValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="1df3057c-8a68-4bd9-bb6b-48e678613f2d">
     <name>ТипБазовойЗадачи</name>
     <synonym>

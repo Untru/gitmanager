@@ -2,6 +2,9 @@
 // Lib: Yandex ID
 // CLI: yandex
 
+// @strict-types
+
+
 // MIT License
 
 // Copyright (c) 2023 Anton Tsitavets
