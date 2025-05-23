@@ -248,7 +248,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.НастройкиПользователей.Attribute.IDПользователяGitLab</name>
+		<name>Catalog.НастройкиПользователей.Attribute.IDПользователяGit</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -862,7 +862,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.НастройкиПользователей.Attribute.ТокенGitLab</name>
+		<name>Catalog.НастройкиПользователей.Attribute.ТокенGit</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -880,7 +880,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.НастройкиПользователей.Attribute.ПочтаПользователяGitLab</name>
+		<name>Catalog.НастройкиПользователей.Attribute.ПочтаПользователяGit</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1128,7 +1128,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.НастройкиПользователей.Attribute.ИмяПользователяGitLab</name>
+		<name>Catalog.НастройкиПользователей.Attribute.ИмяПользователяGit</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

@@ -198,10 +198,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f78c9bfa-89c8-49a2-8562-d2e0d7a2c03b">
-    <name>ВеткаGitLab</name>
+    <name>ВеткаGit</name>
     <synonym>
       <key>ru</key>
-      <value>Ветка git lab</value>
+      <value>Ветка git</value>
     </synonym>
     <type>
       <types>String</types>
