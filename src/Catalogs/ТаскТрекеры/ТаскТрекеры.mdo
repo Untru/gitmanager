@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81b6ff73-1b53-4cd1-8d27-4dbc82a18495">
+  <producedTypes>
+    <objectType typeId="9d1dfe3d-6322-4bb6-a8d0-27c0b97765fa" valueTypeId="8409f759-ea56-4314-8d6c-44e43cf1bf7d"/>
+    <refType typeId="c50fdff8-fe2c-4d7d-bb28-6b829e9fad0d" valueTypeId="42a9c6d9-2df3-420a-bee3-328c12627806"/>
+    <selectionType typeId="73a94d85-a214-4a44-87f1-538cf6ecc0c1" valueTypeId="042150b3-1b8e-450b-92e3-b88b01d61c58"/>
+    <listType typeId="e03cbbd1-6a5b-4b87-9fe1-b90603814ca0" valueTypeId="82f138e7-4192-4b65-9aac-cc17d68dea6b"/>
+    <managerType typeId="f34ddeeb-ac74-42e0-8688-bb30e4dfc4e2" valueTypeId="d5d9dae4-7f7d-4548-ac83-9e23c8c45bfa"/>
+  </producedTypes>
+  <name>ТаскТрекеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таск трекеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТаскТрекеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТаскТрекеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТаскТрекеры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="53c46f22-dbff-41da-9f7d-aa9461c90599">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="988c7c28-103c-4763-be36-5128873c2b0c">
+    <name>URL</name>
+    <synonym>
+      <key>ru</key>
+      <value>URL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6323ad78-7d48-40fb-897d-ea9b8478b671">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
