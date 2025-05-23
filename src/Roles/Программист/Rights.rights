@@ -2252,13 +2252,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Базы.Attribute.НомерВерсииПлатформы</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.СтроковыеКонтактыВзаимодействий</name>
 		<right>
 			<name>Read</name>
@@ -2365,13 +2358,6 @@
 		<right>
 			<name>Edit</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Базы.Attribute.КаталогRAS</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>

@@ -230,6 +230,45 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="2405f909-d620-49ea-8853-b8babd1f375c">
+    <name>КаталогRAS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог RAS</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e61ddb5-10bb-4fe9-af4d-e8323ba7e655">
+    <name>НомерВерсииПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер версии платформы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <commands uuid="223c1d9e-2a01-43a7-b644-c685ca85e8cc">
     <name>ПодключитьсяКRDP</name>
     <synonym>
