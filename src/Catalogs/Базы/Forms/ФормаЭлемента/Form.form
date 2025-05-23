@@ -1192,7 +1192,7 @@
       <id>52</id>
       <title>
         <key>ru</key>
-        <value>Создать репозиторий GitLab</value>
+        <value>Создать репозиторий Git</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
