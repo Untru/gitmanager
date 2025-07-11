@@ -42,4 +42,11 @@
       <value>1С</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="aecea831-5532-4803-b530-92387205e287">
+    <name>Отсутствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствует (работа с ограниченным функционалом)</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

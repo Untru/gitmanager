@@ -454,7 +454,7 @@
       <value>Таск трекер</value>
     </synonym>
     <type>
-      <types>EnumRef.ТаскТрекеры</types>
+      <types>CatalogRef.ТаскТрекеры</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
