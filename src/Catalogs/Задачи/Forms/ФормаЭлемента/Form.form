@@ -1042,9 +1042,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ToolsWorld</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ToolsWorldРасширеннаяПодсказка</name>
             <id>273</id>
@@ -1060,12 +1057,10 @@
             <id>272</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>CheckBoxField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
         </items>
         <items xsi:type="form:FormField">
           <name>Aelita</name>
@@ -1075,9 +1070,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Aelita</segments>
-          </dataPath>
           <extendedTooltip>
             <name>AelitaРасширеннаяПодсказка</name>
             <id>276</id>
@@ -1093,12 +1085,10 @@
             <id>275</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>CheckBoxField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4354,6 +4344,34 @@
         <showTitle>true</showTitle>
       </extInfo>
     </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаДополнительныеРеквизиты</name>
+      <id>355</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа18</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаДополнительныеРеквизитыРасширеннаяПодсказка</name>
+        <id>356</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -4386,8 +4404,20 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>FillCheckProcessingAtServer</event>
+    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
@@ -4653,6 +4683,10 @@
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

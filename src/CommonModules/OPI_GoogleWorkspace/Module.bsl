@@ -2,6 +2,9 @@
 // Lib: Google Workspace
 // CLI: google
 
+// @strict-types
+
+
 // MIT License
 
 // Copyright (c) 2023 Anton Tsitavets

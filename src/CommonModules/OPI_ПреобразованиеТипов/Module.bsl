@@ -1,5 +1,8 @@
 // OneScript: ./OInt/tools/Modules/OPI_ПреобразованиеТипов.os
 
+// @strict-types
+
+
 // MIT License
 
 // Copyright (c) 2023 Anton Tsitavets

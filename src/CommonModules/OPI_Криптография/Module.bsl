@@ -1,5 +1,8 @@
 // OneScript: ./OInt/tools/Modules/internal/Modules/OPI_Криптография.os
 
+// @strict-types
+
+
 // MIT License
 
 // Copyright (c) 2023 Anton Tsitavets

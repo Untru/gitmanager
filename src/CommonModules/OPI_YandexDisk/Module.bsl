@@ -2,6 +2,9 @@
 // Lib: Yandex Disk
 // CLI: yadisk
 
+// @strict-types
+
+
 // MIT License
 
 // Copyright (c) 2023 Anton Tsitavets

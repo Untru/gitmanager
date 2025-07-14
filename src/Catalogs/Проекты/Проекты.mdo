@@ -447,6 +447,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="00347152-466b-4fd5-9e52-48cef645b341">
+    <name>ТаскТрекер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таск трекер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТаскТрекеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="197ea800-5872-4739-a0d3-74497a4738d2">
+    <name>URLТаскТрекера</name>
+    <synonym>
+      <key>ru</key>
+      <value>URLТаск трекера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="edbeb866-fde0-45a2-84d9-d0302907e8d8">
     <name>ФормаЭлемента</name>
     <synonym>

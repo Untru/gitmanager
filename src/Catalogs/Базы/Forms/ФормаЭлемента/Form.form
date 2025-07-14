@@ -180,9 +180,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.НомерВерсииПлатформы</segments>
-      </dataPath>
       <extendedTooltip>
         <name>НомерВерсииПлатформыРасширеннаяПодсказка</name>
         <id>33</id>
@@ -198,19 +195,10 @@
         <id>32</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>КаталогRAS</name>
@@ -220,9 +208,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КаталогRAS</segments>
-      </dataPath>
       <extendedTooltip>
         <name>КаталогRASРасширеннаяПодсказка</name>
         <id>39</id>
@@ -238,24 +223,10 @@
         <id>38</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>StartChoice</event>
-          <name>ПутьНачалоВыбораRAS</name>
-        </handlers>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <choiceButton>true</choiceButton>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>КаталогРепозитория</name>
@@ -731,9 +702,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПутьКХранилищуToolsWorld</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ПутьКХранилищуToolsWorldРасширеннаяПодсказка</name>
           <id>92</id>
@@ -749,20 +717,10 @@
           <id>91</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>ПользовательХранилищаToolsworld</name>
@@ -772,9 +730,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПользовательХранилищаToolsworld</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ПользовательХранилищаToolsworldРасширеннаяПодсказка</name>
           <id>83</id>
@@ -790,20 +745,10 @@
           <id>82</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>ПутьКХранилищуAelita</name>
@@ -813,9 +758,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПутьКХранилищуAelita</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ПутьКХранилищуAelitaРасширеннаяПодсказка</name>
           <id>86</id>
@@ -831,20 +773,10 @@
           <id>85</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>ПользовательХранилищаAelita</name>
@@ -854,9 +786,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПользовательХранилищаAelita</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ПользовательХранилищаAelitaРасширеннаяПодсказка</name>
           <id>89</id>
@@ -872,20 +801,10 @@
           <id>88</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
