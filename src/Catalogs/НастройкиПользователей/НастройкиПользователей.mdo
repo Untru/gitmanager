@@ -142,7 +142,6 @@
     <passwordMode>true</passwordMode>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
