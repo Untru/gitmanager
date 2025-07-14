@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Обновить данные задач</value>
   </synonym>
-  <methodName>CommonModule.РаботаСBitrix.ОбновитьДанныеЗадач</methodName>
+  <methodName>CommonModule.РаботаСЗадачами.ОбновитьДанныеЗадач</methodName>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
