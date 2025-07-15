@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a594fbd7-f7ac-41cd-afc1-371b94c3db74">
+  <name>РаботаБезТаскТрекера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа без таск трекера</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
