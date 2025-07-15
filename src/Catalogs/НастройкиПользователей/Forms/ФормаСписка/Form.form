@@ -56,7 +56,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.IDПользователяGitLab</segments>
+        <segments>Список.IDПользователяGit</segments>
       </dataPath>
       <extendedTooltip>
         <name>IDПользователяGitLabРасширеннаяПодсказка</name>
@@ -233,7 +233,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ИмяПользователяGitLab</name>
+      <name>ИмяПользователяGit</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -241,10 +241,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ИмяПользователяGitLab</segments>
+        <segments>Список.ИмяПользователяGit</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ИмяПользователяGitLabРасширеннаяПодсказка</name>
+        <name>ИмяПользователяGitРасширеннаяПодсказка</name>
         <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -254,7 +254,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ИмяПользователяGitLabКонтекстноеМеню</name>
+        <name>ИмяПользователяGitКонтекстноеМеню</name>
         <id>26</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -313,7 +313,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ПочтаПользователяGitLab</segments>
+        <segments>Список.ПочтаПользователяGit</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПочтаПользователяGitLabРасширеннаяПодсказка</name>
