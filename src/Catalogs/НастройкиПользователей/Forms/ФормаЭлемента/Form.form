@@ -184,7 +184,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>TokenGitLab</name>
+    <name>TokenGit</name>
     <id>7</id>
     <title>
       <key>ru</key>
@@ -199,7 +199,7 @@
       <segments>Объект.ТокенGit</segments>
     </dataPath>
     <extendedTooltip>
-      <name>TokenGitLabРасширеннаяПодсказка</name>
+      <name>TokenGitРасширеннаяПодсказка</name>
       <id>9</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -209,7 +209,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>TokenGitLabКонтекстноеМеню</name>
+      <name>TokenGitКонтекстноеМеню</name>
       <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -228,7 +228,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ПочтаПользователяGitLab</name>
+    <name>ПочтаПользователяGit</name>
     <id>32</id>
     <title>
       <key>ru</key>
@@ -243,7 +243,7 @@
       <segments>Объект.ПочтаПользователяGit</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПочтаПользователяGitLabРасширеннаяПодсказка</name>
+      <name>ПочтаПользователяGitРасширеннаяПодсказка</name>
       <id>34</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -253,7 +253,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ПочтаПользователяGitLabКонтекстноеМеню</name>
+      <name>ПочтаПользователяGitКонтекстноеМеню</name>
       <id>33</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -319,7 +319,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ИмяПользователяGitLab</name>
+      <name>ИмяПользователяGit</name>
       <id>29</id>
       <title>
         <key>ru</key>
@@ -331,10 +331,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ИмяПользователяGitLab</segments>
+        <segments>Объект.ИмяПользователяGit</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ИмяПользователяGitLabРасширеннаяПодсказка</name>
+        <name>ИмяПользователяGitРасширеннаяПодсказка</name>
         <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -344,7 +344,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ИмяПользователяGitLabКонтекстноеМеню</name>
+        <name>ИмяПользователяGitКонтекстноеМеню</name>
         <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -404,7 +404,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>IDПользователяGitLab</name>
+      <name>IDПользователяGit</name>
       <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -412,10 +412,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.IDПользователяGitLab</segments>
+        <segments>Объект.IDПользователяGit</segments>
       </dataPath>
       <extendedTooltip>
-        <name>IDПользователяGitLabРасширеннаяПодсказка</name>
+        <name>IDПользователяGitРасширеннаяПодсказка</name>
         <id>40</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -425,7 +425,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>IDПользователяGitLabКонтекстноеМеню</name>
+        <name>IDПользователяGitКонтекстноеМеню</name>
         <id>39</id>
         <autoFill>true</autoFill>
       </contextMenu>
