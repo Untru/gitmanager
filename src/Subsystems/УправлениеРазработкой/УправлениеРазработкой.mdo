@@ -83,4 +83,5 @@
   <content>Report.АнализЗадачРелиза</content>
   <content>InformationRegister.ЗадачиРелиза</content>
   <content>InformationRegister.ОчередьАктуализацииДопОбработок</content>
+  <content>Catalog.ТаскТрекеры</content>
 </mdclass:Subsystem>

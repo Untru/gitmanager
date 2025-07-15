@@ -196,7 +196,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ТокенGitLab</segments>
+      <segments>Объект.ТокенGit</segments>
     </dataPath>
     <extendedTooltip>
       <name>TokenGitLabРасширеннаяПодсказка</name>
@@ -240,7 +240,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ПочтаПользователяGitLab</segments>
+      <segments>Объект.ПочтаПользователяGit</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПочтаПользователяGitLabРасширеннаяПодсказка</name>

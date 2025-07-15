@@ -31,10 +31,10 @@
   <defaultObjectForm>Catalog.НастройкиПользователей.Form.ФормаЭлемента</defaultObjectForm>
   <defaultChoiceForm>Catalog.НастройкиПользователей.Form.ФормаСписка</defaultChoiceForm>
   <attributes uuid="6f306804-d0bc-4250-b9cb-33ca3a88b80f">
-    <name>ТокенGitLab</name>
+    <name>ТокенGit</name>
     <synonym>
       <key>ru</key>
-      <value>Токен git lab</value>
+      <value>Токен git</value>
     </synonym>
     <type>
       <types>String</types>
@@ -87,10 +87,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="9ae26187-b049-408b-b237-c7a9df78e758">
-    <name>ИмяПользователяGitLab</name>
+    <name>ИмяПользователяGit</name>
     <synonym>
       <key>ru</key>
-      <value>Имя пользователя git lab</value>
+      <value>Имя пользователя git</value>
     </synonym>
     <type>
       <types>String</types>
@@ -107,10 +107,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="78fc0a40-c68e-455a-8202-e4a8539b0722">
-    <name>ПочтаПользователяGitLab</name>
+    <name>ПочтаПользователяGit</name>
     <synonym>
       <key>ru</key>
-      <value>Почта пользователя git lab</value>
+      <value>Почта пользователя git</value>
     </synonym>
     <type>
       <types>String</types>
@@ -164,10 +164,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="2221af3e-023a-491f-9e29-83d11f9e7711">
-    <name>IDПользователяGitLab</name>
+    <name>IDПользователяGit</name>
     <synonym>
       <key>ru</key>
-      <value>IDПользователя git lab</value>
+      <value>IDПользователя git</value>
     </synonym>
     <type>
       <types>String</types>

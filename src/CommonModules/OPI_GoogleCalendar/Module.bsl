@@ -2,6 +2,9 @@
 // Lib: Google Calendar
 // CLI: gcalendar
 
+// @strict-types
+
+
 // MIT License
 
 // Copyright (c) 2023 Anton Tsitavets
