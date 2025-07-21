@@ -269,6 +269,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="627d7be4-06e2-4a9a-94f5-addb4ff96b07">
+    <name>ПутьКСерверуRAS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к серверу RAS</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <commands uuid="223c1d9e-2a01-43a7-b644-c685ca85e8cc">
     <name>ПодключитьсяКRDP</name>
     <synonym>
