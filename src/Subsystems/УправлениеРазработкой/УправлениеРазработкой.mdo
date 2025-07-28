@@ -87,4 +87,6 @@
   <content>CommonCommand.УстановитьОскрипт</content>
   <content>CommonModule.КомандыЗапускаПриложенияПовтИсп</content>
   <content>Catalog.Команды</content>
+  <content>Catalog.УчетныеДанные</content>
+  <content>Enum.ТипыУчетныхДанных</content>
 </mdclass:Subsystem>

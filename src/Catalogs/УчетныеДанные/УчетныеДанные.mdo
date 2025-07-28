@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fad5b54e-e82d-4f25-92b8-1752645a6607">
+  <producedTypes>
+    <objectType typeId="a489340f-35e4-4624-a9dd-81ce07f47470" valueTypeId="3d4ccc9d-eba0-4352-92f9-2185e1eb87d7"/>
+    <refType typeId="4dba8113-bc8d-435b-a43b-9248be58e025" valueTypeId="92c96b0e-0364-4ea2-b1c9-f0d74958b19b"/>
+    <selectionType typeId="e1660184-34c7-4f88-9b6d-4cb566c90182" valueTypeId="6246223b-ea77-4006-abf7-30c12321e9c1"/>
+    <listType typeId="cb077850-e24a-4d22-9a97-a6e23a44b39a" valueTypeId="adfa1d0c-d62e-4007-aa4a-b971ce76333f"/>
+    <managerType typeId="be400d65-5232-40a5-ac87-4ecbec328a22" valueTypeId="137186f3-8d3b-4401-a7b9-dfbfd29456ee"/>
+  </producedTypes>
+  <name>УчетныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные данные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчетныеДанные.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УчетныеДанные.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4b1cc476-5526-45bb-b6d2-3e64da4ca1f5">
+    <name>ТипУчетныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип учетных данных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыУчетныхДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1434,6 +1434,7 @@
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТаскТрекеры</catalogs>
   <catalogs>Catalog.Команды</catalogs>
+  <catalogs>Catalog.УчетныеДанные</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.Релиз</documents>
@@ -1505,6 +1506,7 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ТипыУчетныхДанных</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализЗадачРелиза</reports>
   <reports>Report.АнализПравДоступа</reports>
