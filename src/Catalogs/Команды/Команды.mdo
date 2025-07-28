@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5fed10d-b212-44b9-b2a9-3cbb3fe00e34">
+  <producedTypes>
+    <objectType typeId="2bf6dea1-f4f8-484b-b473-c29c6dff4cca" valueTypeId="0234993b-ea1d-4b00-b5a0-ec37631bb464"/>
+    <refType typeId="3a443142-410a-4da8-aa31-3dcc6a319875" valueTypeId="7b5857cf-a7c2-4cc5-add2-18bd7f42b898"/>
+    <selectionType typeId="71be60f4-89ad-4973-993d-0b925b790007" valueTypeId="08667ec6-2d70-4313-80dc-b8227efeb0d6"/>
+    <listType typeId="55666a33-bdcc-4cd4-b4bd-adef2a21c3e2" valueTypeId="91187af7-d506-4d31-a0c3-c2bc79844fa2"/>
+    <managerType typeId="a67cf862-9ab2-4baa-a109-276d6dcc9592" valueTypeId="34777145-3b86-4a10-ac7a-562878c1aebb"/>
+  </producedTypes>
+  <name>Команды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Команды.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Команды.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c44a6f5e-7d23-417b-a6cf-2d2e07669865">
+    <name>ПередЗапускомОсновнойКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перед запуском основной команды</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="6261cf52-837f-4ce8-af3e-d387609dfe9a">
+    <producedTypes>
+      <objectType typeId="f0d24438-42ff-4d90-a584-32b990410f8d" valueTypeId="8b743f21-109d-4295-96ee-25eaa04240c5"/>
+      <rowType typeId="8c92e1d5-7e21-4ae4-8c89-7b6c3fb23433" valueTypeId="96ae8fbf-b2b3-4ba0-9286-f62a47c624d7"/>
+    </producedTypes>
+    <name>Команды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команды</value>
+    </synonym>
+    <attributes uuid="1fadf618-c869-4cc8-9889-5b826e7ae202">
+      <name>Команда</name>
+      <synonym>
+        <key>ru</key>
+        <value>Команда</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

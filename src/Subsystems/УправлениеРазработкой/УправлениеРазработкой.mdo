@@ -85,4 +85,6 @@
   <content>InformationRegister.ОчередьАктуализацииДопОбработок</content>
   <content>Catalog.ТаскТрекеры</content>
   <content>CommonCommand.УстановитьОскрипт</content>
+  <content>CommonModule.КомандыЗапускаПриложенияПовтИсп</content>
+  <content>Catalog.Команды</content>
 </mdclass:Subsystem>
