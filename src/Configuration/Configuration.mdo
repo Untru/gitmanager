@@ -1019,6 +1019,7 @@
   <commonModules>CommonModule.ШаблоныСообщенийСлужебный</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.РаботаБезТаскТрекера</commonModules>
+  <commonModules>CommonModule.КомандыЗапускаПриложенияПовтИсп</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
@@ -1432,6 +1433,8 @@
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТаскТрекеры</catalogs>
+  <catalogs>Catalog.Команды</catalogs>
+  <catalogs>Catalog.УчетныеДанные</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.Релиз</documents>
@@ -1503,6 +1506,7 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ТипыУчетныхДанных</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализЗадачРелиза</reports>
   <reports>Report.АнализПравДоступа</reports>
