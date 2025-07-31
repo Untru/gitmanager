@@ -192,7 +192,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
+      <group>Vertical</group>
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -212,19 +212,23 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Команды</segments>
+        <segments>ИсторияКоманд</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <items xsi:type="form:FormField">
         <name>КомандыЗначение</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>Команда</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Команды.Value</segments>
+          <segments>ИсторияКоманд.Value</segments>
         </dataPath>
         <extendedTooltip>
           <name>КомандыЗначениеРасширеннаяПодсказка</name>
@@ -462,10 +466,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Команды</name>
+    <name>ИсторияКоманд</name>
     <title>
       <key>ru</key>
-      <value>Команды</value>
+      <value>История команд</value>
     </title>
     <id>4</id>
     <valueType>

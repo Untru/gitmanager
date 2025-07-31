@@ -682,6 +682,7 @@
   <roles>Role.ЧтениеРассылокОтчетов</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ЧтениеШаблоновСообщений</roles>
+  <commonTemplates>CommonTemplate.OVM</commonTemplates>
   <commonTemplates>CommonTemplate.RDPClient_Макет</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
