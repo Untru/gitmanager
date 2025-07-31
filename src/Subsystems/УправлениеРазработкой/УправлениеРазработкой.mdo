@@ -89,4 +89,6 @@
   <content>Catalog.Команды</content>
   <content>Catalog.УчетныеДанные</content>
   <content>Enum.ТипыУчетныхДанных</content>
+  <content>DataProcessor.Запуск</content>
+  <content>DataProcessor.Терминал</content>
 </mdclass:Subsystem>

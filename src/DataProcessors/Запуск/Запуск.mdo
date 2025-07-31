@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c70198e-e182-413c-ac1a-6584b2a37935">
+  <producedTypes>
+    <objectType typeId="5ed4878e-d660-45f9-a79b-5aafc2f44533" valueTypeId="44fb20d2-5404-4803-96e4-98279233406f"/>
+    <managerType typeId="49c74d9e-8ffd-4f77-a987-fc6d0b018b37" valueTypeId="71bbf820-6cea-4335-bcf4-1eda16a89b61"/>
+  </producedTypes>
+  <name>Запуск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Запуск.Form.Форма</defaultForm>
+  <forms uuid="93e87f01-b54d-48d7-9436-55b3f608427e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

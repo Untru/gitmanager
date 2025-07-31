@@ -682,6 +682,7 @@
   <roles>Role.ЧтениеРассылокОтчетов</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ЧтениеШаблоновСообщений</roles>
+  <commonTemplates>CommonTemplate.OVM</commonTemplates>
   <commonTemplates>CommonTemplate.RDPClient_Макет</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
@@ -1298,9 +1299,9 @@
   <constants>Constant.СпособХраненияФайлов</constants>
   <constants>Constant.СтандартныеПодсистемыВАвтономномРежиме</constants>
   <constants>Constant.СтратегияЗапускаСкрипта</constants>
-  <constants>Constant.ТаскТрекер</constants>
   <constants>Constant.ТокенBitrix</constants>
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
+  <constants>Constant.УдалитьТаскТрекер</constants>
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
   <constants>Constant.ФайлЗапускаOscript</constants>
   <constants>Constant.ХранитьИсториюРассылкиОтчетов</constants>
@@ -1371,6 +1372,7 @@
   <commonForms>CommonForm.ФормаВариантаОтчета</commonForms>
   <commonForms>CommonForm.ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
+  <commonForms>CommonForm.ФормаНастроекКонфигурации</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
@@ -1533,6 +1535,7 @@
   <dataProcessors>DataProcessor.ЗаменаИОбъединениеЭлементов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеГрафиковРаботы</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеКалендарныхГрафиков</dataProcessors>
+  <dataProcessors>DataProcessor.Запуск</dataProcessors>
   <dataProcessors>DataProcessor.КомандыПроцессов</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
   <dataProcessors>DataProcessor.МенеджерРелизов</dataProcessors>
@@ -1553,6 +1556,7 @@
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.Сканирование</dataProcessors>
+  <dataProcessors>DataProcessor.Терминал</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеЗадачами</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
