@@ -38,3 +38,6 @@ sc create %SrvcName% binPath= %BinPath% start= auto obj= %SrvUserName% password=
 
 Для вывода логов
 set LOGOS_CONFIG=logger.oscript.lib.commands=DEBUG;
+
+ОГРАНИЧЕНИЯ !!! Некоторый функционал не работает в WEB Клиенте
+
