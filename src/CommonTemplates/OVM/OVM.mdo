@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="988526b3-55af-43db-98ce-891aeef841f6">
+  <name>OVM</name>
+  <synonym>
+    <key>ru</key>
+    <value>OVM</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

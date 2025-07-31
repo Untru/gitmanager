@@ -84,4 +84,11 @@
   <content>InformationRegister.ЗадачиРелиза</content>
   <content>InformationRegister.ОчередьАктуализацииДопОбработок</content>
   <content>Catalog.ТаскТрекеры</content>
+  <content>CommonCommand.УстановитьОскрипт</content>
+  <content>CommonModule.КомандыЗапускаПриложенияПовтИсп</content>
+  <content>Catalog.Команды</content>
+  <content>Catalog.УчетныеДанные</content>
+  <content>Enum.ТипыУчетныхДанных</content>
+  <content>DataProcessor.Запуск</content>
+  <content>DataProcessor.Терминал</content>
 </mdclass:Subsystem>

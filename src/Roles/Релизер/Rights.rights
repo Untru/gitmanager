@@ -801,7 +801,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ТаскТрекер</name>
+		<name>Constant.УдалитьТаскТрекер</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

@@ -682,6 +682,7 @@
   <roles>Role.ЧтениеРассылокОтчетов</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ЧтениеШаблоновСообщений</roles>
+  <commonTemplates>CommonTemplate.OVM</commonTemplates>
   <commonTemplates>CommonTemplate.RDPClient_Макет</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
@@ -792,6 +793,7 @@
   <commonModules>CommonModule.КалендарныеГрафикиПереопределяемый</commonModules>
   <commonModules>CommonModule.КалендарныеГрафикиСлужебный</commonModules>
   <commonModules>CommonModule.КомандыЗапускаПриложения</commonModules>
+  <commonModules>CommonModule.КомандыЗапускаПриложенияПовтИсп</commonModules>
   <commonModules>CommonModule.КоннекторHTTP</commonModules>
   <commonModules>CommonModule.КонструкторФормул</commonModules>
   <commonModules>CommonModule.КонструкторФормулВызовСервера</commonModules>
@@ -880,6 +882,7 @@
   <commonModules>CommonModule.ПользователиСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.РаботаБезТаскТрекера</commonModules>
   <commonModules>CommonModule.РаботаСBitrix</commonModules>
   <commonModules>CommonModule.РаботаСGit</commonModules>
   <commonModules>CommonModule.РаботаСGitAPI</commonModules>
@@ -1018,7 +1021,6 @@
   <commonModules>CommonModule.ШаблоныСообщенийСервер</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебный</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
-  <commonModules>CommonModule.РаботаБезТаскТрекера</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
@@ -1215,6 +1217,7 @@
   <commonCommands>CommonCommand.СнимкиОтчетовДляАвтономногоРежима</commonCommands>
   <commonCommands>CommonCommand.СозданиеНачальногоОбразаСФайлами</commonCommands>
   <commonCommands>CommonCommand.СозданиеСвязанныхОбъектов</commonCommands>
+  <commonCommands>CommonCommand.УстановитьОскрипт</commonCommands>
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
   <commonCommands>CommonCommand.ФайлыВТоме</commonCommands>
   <commandGroups>CommandGroup.Взаимодействия</commandGroups>
@@ -1296,9 +1299,9 @@
   <constants>Constant.СпособХраненияФайлов</constants>
   <constants>Constant.СтандартныеПодсистемыВАвтономномРежиме</constants>
   <constants>Constant.СтратегияЗапускаСкрипта</constants>
-  <constants>Constant.ТаскТрекер</constants>
   <constants>Constant.ТокенBitrix</constants>
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
+  <constants>Constant.УдалитьТаскТрекер</constants>
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
   <constants>Constant.ФайлЗапускаOscript</constants>
   <constants>Constant.ХранитьИсториюРассылкиОтчетов</constants>
@@ -1369,6 +1372,7 @@
   <commonForms>CommonForm.ФормаВариантаОтчета</commonForms>
   <commonForms>CommonForm.ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
+  <commonForms>CommonForm.ФормаНастроекКонфигурации</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
@@ -1395,6 +1399,7 @@
   <catalogs>Catalog.Кластеры</catalogs>
   <catalogs>Catalog.КлючевыеОперации</catalogs>
   <catalogs>Catalog.КлючиДоступа</catalogs>
+  <catalogs>Catalog.Команды</catalogs>
   <catalogs>Catalog.МакетыПечатныхФорм</catalogs>
   <catalogs>Catalog.НаборыГруппДоступа</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
@@ -1420,8 +1425,10 @@
   <catalogs>Catalog.СтадииКанбан</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтроковыеКонтактыВзаимодействий</catalogs>
+  <catalogs>Catalog.ТаскТрекеры</catalogs>
   <catalogs>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
+  <catalogs>Catalog.УчетныеДанные</catalogs>
   <catalogs>Catalog.УчетныеДанныеRDP</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
@@ -1430,7 +1437,6 @@
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.ТаскТрекеры</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.Релиз</documents>
@@ -1493,6 +1499,7 @@
   <enums>Enum.ТипыОтчетов</enums>
   <enums>Enum.ТипыПредопределенныхПапокПисем</enums>
   <enums>Enum.ТипыТекстовЭлектронныхПисем</enums>
+  <enums>Enum.ТипыУчетныхДанных</enums>
   <enums>Enum.ТипыФайловДляВстроенногоРедактора</enums>
   <enums>Enum.ТипыХраненияФайлов</enums>
   <enums>Enum.УровниПроизводительности</enums>
@@ -1528,6 +1535,7 @@
   <dataProcessors>DataProcessor.ЗаменаИОбъединениеЭлементов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеГрафиковРаботы</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеКалендарныхГрафиков</dataProcessors>
+  <dataProcessors>DataProcessor.Запуск</dataProcessors>
   <dataProcessors>DataProcessor.КомандыПроцессов</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
   <dataProcessors>DataProcessor.МенеджерРелизов</dataProcessors>
@@ -1548,6 +1556,7 @@
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.Сканирование</dataProcessors>
+  <dataProcessors>DataProcessor.Терминал</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеЗадачами</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>

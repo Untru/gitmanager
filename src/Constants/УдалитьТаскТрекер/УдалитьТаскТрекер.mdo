@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cc5e535-54fd-4731-b6a9-6d228ea982ab">
+  <producedTypes>
+    <managerType typeId="5a265ef2-723c-4200-83d5-569e95303a97" valueTypeId="6758c0a2-c676-4d3f-b988-55529226d6ca"/>
+    <valueManagerType typeId="63db6607-e70c-485a-bb6a-bb656fe05a34" valueTypeId="d6e87819-7d10-4f5e-b9b0-96c56ad18da2"/>
+    <valueKeyType typeId="179daaab-5bfe-4ff5-af87-f5b75e4cd968" valueTypeId="abec02e3-d081-43f1-a730-7cafd45f57ef"/>
+  </producedTypes>
+  <name>УдалитьТаскТрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить таск трекер</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТаскТрекеры</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаНастроекКонфигурации</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

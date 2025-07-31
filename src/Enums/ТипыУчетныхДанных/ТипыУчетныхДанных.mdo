@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfdde0c4-7402-4165-b183-d3d2fc71d68d">
+  <producedTypes>
+    <refType typeId="67e6ae31-d6f2-46e7-91c4-1bcef53d3ab8" valueTypeId="498d302a-b791-4192-b0ed-771cc5243716"/>
+    <listType typeId="02ce8014-8bcd-451b-aa3c-7c5a1d418cd2" valueTypeId="fd14e4d6-ba05-4847-ba7d-7434a75c5ce3"/>
+    <managerType typeId="4a6991dc-f082-421f-935c-1b8ef432d316" valueTypeId="e3448a07-41af-4f1a-8cd6-916c624b9605"/>
+  </producedTypes>
+  <name>ТипыУчетныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы учетных данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ad9910ba-9893-465f-bac3-7d5de275e018">
+    <name>Basic</name>
+    <synonym>
+      <key>ru</key>
+      <value>Basic</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
