@@ -1299,9 +1299,9 @@
   <constants>Constant.СпособХраненияФайлов</constants>
   <constants>Constant.СтандартныеПодсистемыВАвтономномРежиме</constants>
   <constants>Constant.СтратегияЗапускаСкрипта</constants>
-  <constants>Constant.ТаскТрекер</constants>
   <constants>Constant.ТокенBitrix</constants>
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
+  <constants>Constant.УдалитьТаскТрекер</constants>
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
   <constants>Constant.ФайлЗапускаOscript</constants>
   <constants>Constant.ХранитьИсториюРассылкиОтчетов</constants>
@@ -1372,6 +1372,7 @@
   <commonForms>CommonForm.ФормаВариантаОтчета</commonForms>
   <commonForms>CommonForm.ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
+  <commonForms>CommonForm.ФормаНастроекКонфигурации</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>

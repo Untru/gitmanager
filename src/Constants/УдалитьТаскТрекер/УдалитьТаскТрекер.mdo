@@ -5,15 +5,16 @@
     <valueManagerType typeId="63db6607-e70c-485a-bb6a-bb656fe05a34" valueTypeId="d6e87819-7d10-4f5e-b9b0-96c56ad18da2"/>
     <valueKeyType typeId="179daaab-5bfe-4ff5-af87-f5b75e4cd968" valueTypeId="abec02e3-d081-43f1-a730-7cafd45f57ef"/>
   </producedTypes>
-  <name>ТаскТрекер</name>
+  <name>УдалитьТаскТрекер</name>
   <synonym>
     <key>ru</key>
-    <value>Таск трекер</value>
+    <value>Удалить таск трекер</value>
   </synonym>
   <type>
     <types>EnumRef.ТаскТрекеры</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаНастроекКонфигурации</defaultForm>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>
