@@ -1,3 +1,32 @@
+## GitManager
+Что это и зачем?
+
+Изначально была идея дать пользователю простой нитерфейс для работы с 1с по методологии Git Flow. Решение представляет из себя 3 коомпонента:
+* GitManager 
+* GitAgent
+* Cli приложение (https://github.com/Untru/pivo-cli)
+
+GitManager и GitAgent Это одна и та жа конфигурация. Идея сделать GitAgent родилась изза того что по сети сборка и разборка исходников работает очень долго, по этому основная база отправляет команды в GitAgent И он уже запускает скрипты.
+
+Общая схема работы:
+
+
+```mermaid
+sequenceDiagram
+    participant GitManager as GitManager (Сервер 1)
+    participant GitAgent as GitAgent (Сервер 2)
+    participant GitCLI as Git CLI (Сервер 3)
+
+    GitManager ->> GitAgent: Отправка команды (git pull/clone)
+    activate GitAgent
+    GitAgent ->> GitCLI: Запуск git-команды
+    activate GitCLI
+    GitCLI -->> GitAgent: Результат (stdout/stderr)
+    deactivate GitCLI
+    GitAgent -->> GitManager: Ответ (логи/статус)
+    deactivate GitAgent
+```
+
 
 
 ## Старт работы
