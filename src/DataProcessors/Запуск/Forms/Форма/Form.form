@@ -458,7 +458,7 @@
         <group>Vertical</group>
         <showTitle>true</showTitle>
         <backColor xsi:type="core:ColorRef">
-          <color>0:9e082d71-175a-4e80-8cca-6b538d3240eb</color>
+          <color>Style.ЦветФонаПоложительногоЗначения</color>
         </backColor>
       </extInfo>
     </items>
@@ -1044,7 +1044,7 @@ devops/
         <group>Vertical</group>
         <showTitle>true</showTitle>
         <backColor xsi:type="core:ColorRef">
-          <color>0:9e082d71-175a-4e80-8cca-6b538d3240eb</color>
+          <color>Style.ЦветФонаПоложительногоЗначения</color>
         </backColor>
       </extInfo>
     </items>
@@ -1420,7 +1420,7 @@ devops/
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
           <backColor xsi:type="core:ColorRef">
-            <color>0:9e082d71-175a-4e80-8cca-6b538d3240eb</color>
+            <color>Style.ЦветФонаПоложительногоЗначения</color>
           </backColor>
         </extInfo>
       </items>

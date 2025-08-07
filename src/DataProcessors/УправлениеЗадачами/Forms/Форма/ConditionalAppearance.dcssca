@@ -82,7 +82,6 @@
 			<item xsi:type="FilterItemComparison">
 				<left xsi:type="dcscor:Field">СписокЗадачи.ТипЗадачи</left>
 				<comparisonType>NotFilled</comparisonType>
-				<right xsi:nil="true"/>
 			</item>
 		</filter>
 		<appearance>
