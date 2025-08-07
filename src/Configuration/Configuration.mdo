@@ -1020,6 +1020,7 @@
   <commonModules>CommonModule.ШаблоныСообщенийПереопределяемый</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСервер</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебный</commonModules>
+  <commonModules>CommonModule.РаботаСJira</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
@@ -1435,6 +1436,7 @@
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.СтатусыЗадач</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <documents>Document.Встреча</documents>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0bcf3b9-5684-4aec-b089-2d487232002d">
+  <producedTypes>
+    <objectType typeId="e81681c8-a269-426e-a516-59fc939c28e5" valueTypeId="561ae293-c485-43e7-acd0-17c3b0f26488"/>
+    <refType typeId="2f2b77c9-f83a-4477-b04d-82e6fd1993ca" valueTypeId="9969b529-c0f6-4c06-b371-53f7a13d1b7d"/>
+    <selectionType typeId="16a0c9f5-142d-43e6-949f-9754ce92acd4" valueTypeId="1b5b326b-1daf-47bc-bfbf-9a2ce6e24f44"/>
+    <listType typeId="2f76cde3-60e2-4eb8-a16b-015f10e1b777" valueTypeId="73801a09-b728-4615-a579-09ebfffc641b"/>
+    <managerType typeId="1ff960e6-dd3c-4ff2-a025-e09c21ffc90d" valueTypeId="6bc8255b-7944-46d7-9c2f-f441a0bf83d5"/>
+  </producedTypes>
+  <name>СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатусыЗадач.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатусыЗадач.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0bcbaa52-4cc4-4b1d-9eee-46718ba7bcce">
+    <name>ЦветСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет статуса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="146ed367-b649-4edd-8d96-0e6332e730b5">
+    <name>ЭтоЗавершенныйСтатус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это завершенный статус</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e99f6715-0c37-415b-9020-9eea15e43387">
+    <name>ИДСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДСтатуса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

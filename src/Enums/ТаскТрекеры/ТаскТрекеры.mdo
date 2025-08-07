@@ -49,4 +49,11 @@
       <value>Отсутствует (работа с ограниченным функционалом)</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="b1ab6020-3361-4056-bffb-1ffc456a0ad6">
+    <name>Jira</name>
+    <synonym>
+      <key>ru</key>
+      <value>Jira</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

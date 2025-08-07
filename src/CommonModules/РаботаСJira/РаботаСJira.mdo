@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee25281a-429c-4d4f-a3e6-218ab73f4153">
+  <name>РаботаСJira</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с jira</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
